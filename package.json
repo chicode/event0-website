@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "pixi.js": "^4.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2"
+  }
+}

@@ -1,0 +1,85 @@
+$dark-blue: #155A71;
+$light-blue: #74B8CE;
+$black: #353535;
+
+@mixin shadow-1 {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@mixin shadow-2 {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+body {
+	h1, h2 {
+		text-align: center;
+		// font-family: Poppins;
+		font-family: Montserrat;
+		font-weight: bolder;
+		// font-family: Orbitron;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		@include shadow-2();
+		display: block;
+		margin: auto;
+		outline: 0;
+		border: 0;
+		font-family: Montserrat;
+		font-weight: bold;
+		background: white;
+		border-radius: 4px;
+		color: $black;
+		transition-duration: .3s;
+	}
+
+	button:hover {
+		transform: translateY(-5px);
+	}
+
+	button:active {
+		transform: translateY(3px);
+	}
+}
+
+.header {
+	@include shadow-1();
+	background: $light-blue;
+	margin-bottom: 50px;
+	position: relative;
+
+	button {
+		font-size: 1.5em;
+		padding: 5px;
+	}
+
+	.header-body {
+		padding: 100px;
+		color: $dark-blue;
+		position: relative;
+
+		h1 {
+			font-size: 7em;
+			margin: 0;
+		}
+		h2 {
+			font-size: 2em;
+		}
+	}
+
+	canvas {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.body {
+	h1, h2 {
+		color: $black;
+	}
+}
