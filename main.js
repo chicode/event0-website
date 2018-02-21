@@ -53,6 +53,5 @@ function createApp () {
 let app = createApp()
 
 window.onresize = () => {
-	app.destroy()
 	app = createApp()
 }
