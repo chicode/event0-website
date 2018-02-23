@@ -3,7 +3,12 @@
     "start": "parcel index.html"
   },
   "dependencies": {
+    "@types/paper": "^0.9.14",
+    "acorn": "^5.4.1",
+    "es6-tween": "^5.1.0",
+    "paper": "^0.11.5",
     "svg.js": "^2.6.4",
+    "svg.pathmorphing.js": "^0.1.1",
     "two.js": "^0.7.0-alpha.1"
   },
   "devDependencies": {

@@ -25,6 +25,14 @@ html, body, #game {
 body {
 	overflow: hidden;
 }
+canvas {
+	height: 100%;
+	position: absolute;
+}
+#game {
+	position: absolute;
+	width: 100%;
+}
 // 	font-family: Montserrat;
 // 	font-weight: 500;
 // 	height: 100%;
