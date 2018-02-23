@@ -1,9 +1,14 @@
 {
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "dependencies": {
-    "pixi.js": "^4.7.0"
+    "svg.js": "^2.6.4",
+    "two.js": "^0.7.0-alpha.1"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.7.2",
+    "typescript": "^2.7.2"
   }
 }
