@@ -10,6 +10,12 @@
   version "0.9.14"
   resolved "https://registry.yarnpkg.com/@types/paper/-/paper-0.9.14.tgz#167ad65feba4f20a3dd5d84780229e4aec6257c5"
 
+"@types/svg.js@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@types/svg.js/-/svg.js-2.3.1.tgz#4f8dd1fa1030a366259888efd0fedbb897764ab4"
+  dependencies:
+    svg.js "*"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1695,7 +1701,7 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-svg.js@^2.1.1, svg.js@^2.6.4:
+svg.js@*, svg.js@^2.1.1, svg.js@^2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/svg.js/-/svg.js-2.6.4.tgz#034085b13391c6fcca1a0185a34dbea6c3e78dc3"
 

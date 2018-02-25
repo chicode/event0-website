@@ -1,9 +1,10 @@
 {
 	"compilerOptions": {
-		"target": "es6",
+		"target": "es2017",
+		"moduleResolution": "node"
 	},
 	"include": [
-		"src/**/*"
+		"./*.ts"
 	],
 	"exclude": [
 		"node_modules"
