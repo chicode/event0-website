@@ -3,15 +3,18 @@
     "start": "parcel index.html"
   },
   "dependencies": {
+    "@types/matter-js": "^0.10.0",
     "@types/paper": "^0.9.14",
     "acorn": "^5.4.1",
     "es6-tween": "^5.1.0",
+    "matter-js": "^0.14.1",
     "paper": "^0.11.5",
     "svg.js": "^2.6.4",
     "svg.pathmorphing.js": "^0.1.1",
     "two.js": "^0.7.0-alpha.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "node-sass": "^4.7.2",
     "typescript": "^2.7.2"

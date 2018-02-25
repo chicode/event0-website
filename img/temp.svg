@@ -44,14 +44,15 @@
      inkscape:window-height="1053"
      id="namedview1048"
      showgrid="false"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="233.93424"
-     inkscape:cy="701.7007"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="1581.3815"
+     inkscape:cy="1018.1936"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1467"
-     showguides="false" />
+     inkscape:current-layer="svg1046"
+     showguides="false"
+     inkscape:object-nodes="false" />
   <defs
      id="defs1019">
     <inkscape:path-effect
@@ -128,16 +129,55 @@
        id="linearGradient947"
        xlink:href="#linearGradient2153"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2153"
+       id="linearGradient1246"
+       gradientUnits="userSpaceOnUse"
+       x1="111.27952"
+       y1="89.567818"
+       x2="122.57175"
+       y2="89.567818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2153"
+       id="linearGradient1248"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.31465268,0,0,0.31465268,-14.06255,0.04463106)"
+       x1="111.27952"
+       y1="89.567818"
+       x2="122.57175"
+       y2="89.567818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2153"
+       id="linearGradient1250"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.31465268,0,0,0.31465268,-9.6684532,0.04463106)"
+       x1="111.27952"
+       y1="89.567818"
+       x2="122.57175"
+       y2="89.567818" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2153"
+       id="linearGradient1252"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.31465268,0,0,0.31465268,-5.2743573,0.04463106)"
+       x1="111.27952"
+       y1="89.567818"
+       x2="122.57175"
+       y2="89.567818" />
   </defs>
   <path
-     inkscape:original-d="m 1464.5083,999.30514 c 2e-4,-4.35046 0,-13.05077 0,-13.05077 0,0 -17.6573,-17.65723 -17.6573,-17.65723 0,0 0,-28.66083 0,-28.66083 0,0 17.6573,-17.40118 17.6573,-17.40118 0,0 31.053,0 31.053,0 0,0 17.6569,17.40118 17.6569,17.40118 0,0 0,28.66083 0,28.66083 0,0 -17.6569,17.65723 -17.6569,17.65723 0,0 0,13.05077 0,13.05077"
+     inkscape:original-d="m 2286.0827,1300.0788 c 1e-4,-1.834 0,-5.5018 0,-5.5018 0,0 -4.9445,-7.4438 -4.9445,-7.4438 0,0 0,-12.0826 0,-12.0826 0,0 4.9445,-7.3358 4.9445,-7.3358 0,0 8.6957,0 8.6957,0 0,0 4.9444,7.3358 4.9444,7.3358 0,0 0,12.0826 0,12.0826 0,0 -4.9444,7.4438 -4.9444,7.4438 0,0 0,5.5018 0,5.5018"
      inkscape:path-effect="#path-effect1613"
      inkscape:connector-curvature="0"
      id="path1611"
-     d="m 1464.5083,999.30514 v -13.05077 l -17.6573,-17.65723 v -28.66083 l 17.6573,-17.40118 h 31.053 l 17.6569,17.40118 v 28.66083 l -17.6569,17.65723 v 13.05077"
-     style="fill:none;stroke:#000000;stroke-width:3.05092597;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2286.0827,1300.0788 v -5.5018 l -4.9445,-7.4438 v -12.0826 l 4.9445,-7.3358 h 8.6957 l 4.9444,7.3358 v 12.0826 l -4.9444,7.4438 v 5.5018"
+     style="fill:none;stroke:#000000;stroke-width:1.0482533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <g
-     transform="matrix(0.21792328,0,0,0.21792328,1262.7297,777.16505)"
+     transform="matrix(0.06102419,0,0,0.09187014,2229.5795,1206.431)"
      id="Group">
     <path
        style="fill:#319563"
@@ -172,7 +212,7 @@
   </g>
   <g
      id="g1036"
-     transform="matrix(0.21792328,0,0,0.21792328,1418.5449,866.40202)">
+     transform="matrix(0.06102419,0,0,0.09187014,2273.2118,1244.0507)">
     <text
        id="text1034"
        style="font-style:normal;font-weight:600;font-size:50px;font-family:Poppins;fill:#319563;stroke:none"
@@ -180,7 +220,7 @@
   </g>
   <g
      id="g1040"
-     transform="matrix(0.45197288,0,0,0.45197288,1419.4492,999.66821)">
+     transform="matrix(0.12656417,0,0,0.19053867,2273.465,1300.2319)">
     <text
        y="61.670731"
        x="-11.968184"
@@ -188,22 +228,22 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:69.76535034px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:3.61724615">event 0</text>
   </g>
   <path
-     inkscape:original-d="m 1446.9065,939.93631 c 8.6358,12.5725 17.2713,25.14522 25.9067,37.71816 8.6354,12.57293 8.5719,-2.03417 12.8575,-3.05093 4.2856,-1.01676 -11.4771,-4.35868 -17.2159,-6.53769 -5.7389,-2.17902 8.1359,1.4526 12.2036,2.17923 4.0678,0.72662 6.3927,-10.89639 9.5887,-16.34425 3.196,-5.44786 -19.3224,1.88846 -28.9838,2.83301 -9.6615,0.94455 8.136,-8.28131 12.2037,-12.42163 4.0677,-4.14032 19.1774,2.90542 28.7658,4.35846 9.5885,1.45304 7.3609,-5.82313 11.0409,-8.73436"
+     inkscape:original-d="m 2281.1538,1275.0506 c 2.4182,5.3002 4.8364,10.6005 7.2545,15.9009 2.4182,5.3004 2.4004,-0.8575 3.6005,-1.2862 1.2,-0.4286 -3.2139,-1.8375 -4.8209,-2.7561 -1.6071,-0.9186 2.2782,0.6124 3.4173,0.9187 1.1391,0.3063 1.7901,-4.5936 2.6851,-6.8902 0.8949,-2.2967 -5.4108,0.7961 -8.1163,1.1943 -2.7054,0.3982 2.2783,-3.4912 3.4174,-5.2366 1.1391,-1.7455 5.3702,1.2248 8.0552,1.8374 2.685,0.6125 2.0612,-2.4549 3.0917,-3.6822"
      inkscape:path-effect="#path-effect1609"
      inkscape:connector-curvature="0"
      id="path1607"
-     d="m 1446.9065,939.93631 c 4.1452,14.973 13.4191,28.47514 25.9067,37.71816 1.2231,0.90531 2.4847,1.77607 3.8725,2.4004 1.3877,0.62432 2.9171,0.99526 4.4326,0.8577 1.5155,-0.13757 3.0134,-0.82209 3.9561,-2.01661 0.4713,-0.59726 0.7969,-1.31292 0.9106,-2.06523 0.1137,-0.75231 0.012,-1.53975 -0.3143,-2.22719 -0.3781,-0.79703 -1.0457,-1.43848 -1.8201,-1.86094 -0.7744,-0.42245 -1.6516,-0.63489 -2.5312,-0.70123 -1.7593,-0.13269 -3.5043,0.30107 -5.2461,0.58175 -1.7419,0.28068 -3.5967,0.39561 -5.2057,-0.32823 -0.8045,-0.36192 -1.5252,-0.93663 -1.9864,-1.6886 -0.4612,-0.75196 -0.6464,-1.68616 -0.4264,-2.54044 0.1533,-0.59517 0.4966,-1.13567 0.9512,-1.54932 0.4545,-0.41365 1.0172,-0.70217 1.6116,-0.85855 1.1887,-0.31274 2.4697,-0.0957 3.5986,0.39057 2.2578,0.97256 3.9365,2.92785 6.0422,4.19653 2.2973,1.38408 5.1181,1.90122 7.7422,1.34691 2.6241,-0.55432 5.0165,-2.19197 6.4189,-4.47808 1.4024,-2.28612 1.7738,-5.19526 0.9198,-7.73766 -0.8539,-2.54241 -2.9385,-4.65596 -5.4922,-5.47542 -2.4917,-0.79955 -5.2325,-0.37876 -7.6872,0.52811 -2.4547,0.90687 -4.7075,2.27499 -7.0527,3.43592 -2.3453,1.16094 -4.8623,2.13234 -7.4791,2.1501 -1.3084,0.009 -2.6272,-0.22734 -3.817,-0.77176 -1.1897,-0.54441 -2.2461,-1.40504 -2.9478,-2.50936 -0.9635,-1.51626 -1.2086,-3.43968 -0.7891,-5.18653 0.4195,-1.74685 1.4719,-3.3122 2.8434,-4.4726 1.3714,-1.16039 3.0494,-1.92856 4.7952,-2.35237 1.7458,-0.42382 3.5606,-0.51261 5.3542,-0.41013 4.8871,0.27924 9.5688,1.94665 14.2862,3.25367 4.7173,1.30701 9.7236,2.26318 14.4796,1.10479 4.7032,-1.14554 8.8437,-4.42102 11.0409,-8.73436"
-     style="fill:none;stroke:#000000;stroke-width:3.05092597;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2281.1538,1275.0506 c -0.7637,3.0511 -0.4607,6.3584 0.8448,9.2199 1.3055,2.8615 3.6048,5.258 6.4097,6.681 0.3669,0.1861 0.7443,0.3569 1.1424,0.4607 0.398,0.1039 0.8196,0.1389 1.2218,0.052 0.4022,-0.086 0.7839,-0.3013 1.0295,-0.6313 0.1228,-0.165 0.2104,-0.357 0.2483,-0.5592 0.038,-0.2022 0.026,-0.4143 -0.041,-0.6088 -0.087,-0.251 -0.2621,-0.4664 -0.4766,-0.6229 -0.2146,-0.1565 -0.4667,-0.2564 -0.7257,-0.3149 -0.5181,-0.117 -1.0566,-0.072 -1.5877,-0.076 -0.531,-0 -1.0871,-0.066 -1.5269,-0.3638 -0.22,-0.1488 -0.4042,-0.3561 -0.5031,-0.6025 -0.099,-0.2464 -0.1075,-0.5326 -9e-4,-0.7758 0.07,-0.1591 0.1864,-0.2962 0.3281,-0.3966 0.1417,-0.1005 0.3078,-0.1648 0.4791,-0.1934 0.3426,-0.057 0.6979,0.029 1.0075,0.1861 0.6193,0.315 1.0586,0.8905 1.6026,1.3226 0.9714,0.7716 2.3104,1.061 3.5113,0.7498 1.2009,-0.3112 2.2336,-1.2187 2.6875,-2.3732 0.454,-1.1545 0.3139,-2.5272 -0.3719,-3.5609 -0.6858,-1.0337 -1.9013,-1.6974 -3.1418,-1.7059 -0.7147,-0 -1.4167,0.1935 -2.0814,0.4561 -0.6647,0.2627 -1.302,0.5904 -1.9635,0.8609 -0.6615,0.2706 -1.357,0.4855 -2.0714,0.5064 -0.7144,0.021 -1.4538,-0.1681 -2,-0.6291 -0.5272,-0.445 -0.839,-1.1237 -0.8733,-1.8127 -0.034,-0.689 0.1998,-1.3813 0.6131,-1.9337 0.4132,-0.5524 0.9987,-0.9667 1.6432,-1.2126 0.6446,-0.2458 1.3463,-0.3271 2.0344,-0.2776 1.391,0.1 2.6837,0.7136 3.9821,1.2227 0.6492,0.2546 1.3109,0.4859 1.996,0.6154 0.6852,0.1295 1.3974,0.155 2.0771,-7e-4 0.8384,-0.1921 1.6102,-0.6639 2.1633,-1.3227 0.5531,-0.6587 0.8843,-1.5005 0.9284,-2.3595"
+     style="fill:none;stroke:#000000;stroke-width:1.0482533;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
-     inkscape:original-d="m 1784.3509,932.98981 c 2e-4,-3.50443 0,-10.51278 0,-10.51278 0,0 -14.2234,-14.2234 -14.2234,-14.2234 0,0 0,-23.08711 0,-23.08711 0,0 14.2234,-14.01715 14.2234,-14.01715 0,0 25.014,0 25.014,0 0,0 14.2232,14.01715 14.2232,14.01715 0,0 0,23.08711 0,23.08711 0,0 -14.2232,14.2234 -14.2232,14.2234 0,0 0,10.51278 0,10.51278"
+     inkscape:original-d="m 2375.647,1272.1222 c 0,-1.4774 0,-4.4319 0,-4.4319 0,0 -3.9829,-5.9962 -3.9829,-5.9962 0,0 0,-9.7328 0,-9.7328 0,0 3.9829,-5.9093 3.9829,-5.9093 0,0 7.0046,0 7.0046,0 0,0 3.9828,5.9093 3.9828,5.9093 0,0 0,9.7328 0,9.7328 0,0 -3.9828,5.9962 -3.9828,5.9962 0,0 0,4.4319 0,4.4319"
      inkscape:path-effect="#path-effect1613-1"
      inkscape:connector-curvature="0"
      id="path1611-3"
-     d="m 1784.3509,932.98981 v -10.51278 l -14.2234,-14.2234 v -23.08711 l 14.2234,-14.01715 h 25.014 l 14.2232,14.01715 v 23.08711 l -14.2232,14.2234 v 10.51278"
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2375.647,1272.1222 v -4.4319 l -3.9829,-5.9962 v -9.7328 l 3.9829,-5.9093 h 7.0046 l 3.9828,5.9093 v 9.7328 l -3.9828,5.9962 v 4.4319"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <g
      id="g1040-1"
-     transform="matrix(0.45197288,0,0,0.45197288,1736.2724,931.65028)"
+     transform="matrix(0.12656417,0,0,0.19053867,2362.1837,1271.5575)"
      style="isolation:isolate">
     <text
        y="61.670731"
@@ -212,20 +252,21 @@
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:69.76535034px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:3.61724615">event 0</text>
   </g>
   <text
-     y="1103.3156"
-     x="1566.9915"
+     y="1095.3158"
+     x="2840.1812"
      id="text962"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:31.53204727px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.63489723">event 0</text>
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.83394814px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.56172663"
+     transform="scale(0.81501166,1.2269763)">event 0</text>
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1517.2543,798.1477 v -10.51276 l -14.2234,-14.2234 V 750.3244 l 14.2234,-14.01712 h 25.014 l 14.2232,14.01712 v 23.08714 l -14.2232,14.2234 v 10.51276"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2300.853,1215.2767 v -4.4319 l -3.9829,-5.9962 v -9.7329 l 3.9829,-5.9092 h 7.0046 l 3.9828,5.9092 v 9.7329 l -3.9828,5.9962 v 4.4319"
      id="path1611-3-8"
      inkscape:connector-curvature="0"
      inkscape:path-effect="#path-effect1613-1-9"
-     inkscape:original-d="m 1517.2543,798.1477 c 10e-5,-3.50442 0,-10.51276 0,-10.51276 0,0 -14.2234,-14.2234 -14.2234,-14.2234 0,0 0,-23.08714 0,-23.08714 0,0 14.2234,-14.01712 14.2234,-14.01712 0,0 25.014,0 25.014,0 0,0 14.2232,14.01712 14.2232,14.01712 0,0 0,23.08714 0,23.08714 0,0 -14.2232,14.2234 -14.2232,14.2234 0,0 0,10.51276 0,10.51276" />
+     inkscape:original-d="m 2300.853,1215.2767 c 0,-1.4774 0,-4.4319 0,-4.4319 0,0 -3.9829,-5.9962 -3.9829,-5.9962 0,0 0,-9.7329 0,-9.7329 0,0 3.9829,-5.9092 3.9829,-5.9092 0,0 7.0046,0 7.0046,0 0,0 3.9828,5.9092 3.9828,5.9092 0,0 0,9.7329 0,9.7329 0,0 -3.9828,5.9962 -3.9828,5.9962 0,0 0,4.4319 0,4.4319" />
   <g
      style="isolation:isolate"
-     transform="matrix(0.45197288,0,0,0.45197288,1469.1758,796.80819)"
+     transform="matrix(0.12656417,0,0,0.19053867,2287.3897,1214.712)"
      id="g1040-1-7">
     <text
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:69.76535034px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke:none;stroke-width:3.61724615"
@@ -234,253 +275,272 @@
        y="61.670731">event 0</text>
   </g>
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1503.0309,773.41153 9.9217,-9.92176 h 19.0135 l 12.2761,-12.27609"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2296.8701,1204.8486 2.7783,-4.1827 h 5.3243 l 3.4376,-5.1753"
      id="path1017"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1503.0309,750.3244 6.5537,6.5537"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2296.8701,1195.1157 1.8352,2.7629"
      id="path1019"
      inkscape:connector-curvature="0" />
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1517.2543,736.30727 6.9799,6.9799 v 9.77443 l -7.4279,7.42786"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2300.853,1189.2065 1.9545,2.9425 v 4.1207 l -2.08,3.1313"
      id="path1022"
      inkscape:connector-curvature="0" />
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1542.2683,736.30727 -8.9825,8.98251 v 6.32922 h 11.7892"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2307.8576,1189.2065 -2.5154,3.7868 v 2.6682 h 3.3013"
      id="path1024"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccc" />
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1556.4915,750.3244 -22.179,20.98132 h -14.1426"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2311.8404,1195.1157 -6.2107,8.8452 h -3.9603"
      id="path1026"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:3.11394644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1556.4915,773.41153 -6.2078,-6.20784 v -6.09672"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.06990623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2311.8404,1204.8486 -1.7383,-2.617 v -2.5702"
      id="path1028"
      inkscape:connector-curvature="0" />
-  <circle
-     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.26336122;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+  <ellipse
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.77765763;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
      id="path1047"
-     cx="1246.493"
-     cy="846.06354"
-     r="28.727278" />
+     cx="2225.0327"
+     cy="1235.4766"
+     rx="8.044385"
+     ry="12.110588" />
   <path
      inkscape:connector-curvature="0"
      id="path970"
-     d="m 1710.387,1100.7227 8.0473,8.0472 -8.1281,8.1281"
-     style="fill:none;stroke:#000000;stroke-width:3.46513772;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2354.9352,1342.8335 2.2534,3.3925 -2.2761,3.4265"
+     style="fill:none;stroke:#000000;stroke-width:1.19057035;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      sodipodi:nodetypes="ccccccccccc"
      inkscape:connector-curvature="0"
      id="path974"
-     d="m 1770.1275,885.16652 h 26.5219 v 18.21214 h -10.0989 v -11.74314 h -9.3415 v 17.29755 h 36.8611 v -13.94363 h -5.0495 v -23.29929"
-     style="fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2371.6641,1251.9613 h 7.4268 v 7.6777 h -2.828 v -4.9506 h -2.6158 v 7.2922 h 10.322 v -5.8783 h -1.414 v -9.8223"
+     style="fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      sodipodi:nodetypes="ccccccccc"
      inkscape:connector-curvature="0"
      id="path983"
-     d="m 1823.5881,885.16652 h -20.6269 v 36.51327 h -12.1186 v -40.64813 h 13.6981 v -5.30193 h -19.7575 v -5.04947"
-     style="fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2386.6344,1251.9613 h -5.7761 v 15.3929 h -3.3935 v -17.1361 h 3.8358 v -2.2351 h -5.5326 v -2.1287"
+     style="fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      sodipodi:nodetypes="ccccccccccc"
      inkscape:connector-curvature="0"
      id="path974-1"
-     d="m 1613.4901,875.95895 h 26.5219 v 18.21214 h -10.0989 v -11.74314 h -9.3415 v 17.29755 h 36.861 v -13.94363 h -5.0495 v -23.29929"
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+     d="m 2327.8015,1248.0796 h 7.4268 v 7.6777 h -2.8279 v -4.9505 h -2.6159 v 7.2921 h 10.3221 v -5.8782 h -1.414 v -9.8223"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <path
      sodipodi:nodetypes="ccccccccc"
      inkscape:connector-curvature="0"
      id="path983-3"
-     d="m 1666.9507,875.95895 h -20.6269 v 36.51327 h -12.1187 v -40.64813 h 13.6982 v -5.30193 h -19.7575 v -5.04946"
-     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:2.93429589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <g
-     id="g1467"
-     transform="translate(328.76955,-109.33035)">
-    <text
-       y="223.8051"
-       x="336.83051"
-       id="text1038-1-2-6"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.6555748px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-12px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:2.73012567">event 0</text>
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect1069"
-       width="244.51006"
-       height="100.24658"
-       x="319.03781"
-       y="179.64633" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 336.46427,238.96203 H 546.12143"
-       id="path1075"
-       inkscape:connector-curvature="0" />
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.56145477px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.87999916px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.11793625"
-       id="text1089"
-       x="334.49667"
-       y="266.46594">the cps hackathon</text>
-    <text
-       y="349.95203"
-       x="350.32205"
-       id="text1038-1-2-6-6"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.9958992px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.82546473">event 0</text>
-    <rect
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect1069-3"
-       width="244.51006"
-       height="100.24658"
-       x="319.13602"
-       y="304.70984" />
-    <path
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 336.56248,364.02553 H 546.21964"
-       id="path1075-7"
-       inkscape:connector-curvature="0" />
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.76443481px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.9996109px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.7761938"
-       id="text1089-9"
-       x="333.81003"
-       y="391.64926">the cps hackathon</text>
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.04354095px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-5.66975832px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.38749266"
-       id="text1513"
-       x="347.38385"
-       y="476.10013">event 0</text>
-    <rect
-       y="430.70984"
-       x="319.13602"
-       height="100.24658"
-       width="244.51006"
-       id="rect1515"
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path1517"
-       d="M 336.56248,490.02553 H 546.21964"
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       y="516.1449"
-       x="339.36072"
-       id="text1519"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.3106664px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.5763706px;writing-mode:lr;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.61190361;">the cps hackathon</text>
-    <text
-       y="595.47205"
-       x="344.20355"
-       id="text905"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55.28287888px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-6.80741358px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.067204">event 0</text>
-    <rect
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect907"
-       width="244.51006"
-       height="100.24658"
-       x="319.13602"
-       y="550.70984" />
-    <path
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 336.56248,610.02553 H 546.21964"
-       id="path909"
-       inkscape:connector-curvature="0" />
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.92856789px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.85716641px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.72090083"
-       id="text911"
-       x="339.9371"
-       y="637.04761">the cps hackathon</text>
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:48.62266541px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-10px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.57718205"
-       id="text913"
-       x="344.3161"
-       y="716.17749">event 0</text>
-    <rect
-       y="670.70984"
-       x="319.13602"
-       height="100.24658"
-       width="244.51006"
-       id="rect915"
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path917"
-       d="M 336.56248,730.02553 H 546.21964"
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       y="757.26685"
-       x="336.0123"
-       id="text919"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000427px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904">the cps hackathon</text>
-    <rect
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect923"
-       width="244.51006"
-       height="100.24658"
-       x="319.13602"
-       y="790.70984" />
-    <path
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 336.56248,850.02553 H 546.21964"
-       id="path925"
-       inkscape:connector-curvature="0" />
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:MonacoB;-inkscape-font-specification:'MonacoB, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904"
-       id="text927"
-       x="337.5123"
-       y="877.26685">the cps hackathon</text>
-    <text
-       y="833.9776"
-       x="355.70441"
-       id="text941"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38317108px;font-family:MonacoB;-inkscape-font-specification:'MonacoB, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922">event 0</text>
-    <rect
-       y="910.70984"
-       x="319.13602"
-       height="100.24658"
-       width="244.51006"
-       id="rect955"
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path958"
-       d="M 336.56248,970.02553 H 546.21964"
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       y="997.26678"
-       x="337.5123"
-       id="text960"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904;">the cps hackathon</text>
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38266754px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922;"
-       id="text963"
-       x="355.70441"
-       y="953.9776">event 0</text>
-    <rect
-       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-       id="rect985"
-       width="244.51006"
-       height="100.24658"
-       x="319.13602"
-       y="1030.7097" />
-    <path
-       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 336.56248,1090.0255 H 546.21964"
-       id="path987"
-       inkscape:connector-curvature="0" />
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904"
-       id="text989"
-       x="337.5123"
-       y="1117.2668">the cps hackathon</text>
-    <text
-       y="1073.9775"
-       x="355.70441"
-       id="text991"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38266754px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922">event 0</text>
-  </g>
+     d="m 2342.7719,1248.0796 h -5.7761 v 15.393 h -3.3936 v -17.1361 h 3.8359 v -2.2352 h -5.5326 v -2.1287"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:1.00818098;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.6555748px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-12px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:2.73012567"
+     id="text1038-1-2-6"
+     x="665.60004"
+     y="114.47475">event 0</text>
+  <rect
+     y="70.315979"
+     x="647.80737"
+     height="100.24658"
+     width="244.51006"
+     id="rect1069"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1075"
+     d="M 665.23382,129.63168 H 874.89098"
+     style="fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     y="157.13559"
+     x="663.26624"
+     id="text1089"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.56145477px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.87999916px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.11793625">the cps hackathon</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.9958992px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.82546473"
+     id="text1038-1-2-6-6"
+     x="679.09161"
+     y="240.62167">event 0</text>
+  <rect
+     y="195.37949"
+     x="647.90558"
+     height="100.24658"
+     width="244.51006"
+     id="rect1069-3"
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path1075-7"
+     d="M 665.33203,254.69518 H 874.98919"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     y="282.31891"
+     x="662.57959"
+     id="text1089-9"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.76443481px;font-family:Inconsolata;-inkscape-font-specification:'Inconsolata, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.9996109px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.7761938">the cps hackathon</text>
+  <text
+     y="366.76978"
+     x="676.15338"
+     id="text1513"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.04354095px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-5.66975832px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.38749266">event 0</text>
+  <rect
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect1515"
+     width="244.51006"
+     height="100.24658"
+     x="647.90558"
+     y="321.37949" />
+  <path
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 665.33203,380.69518 H 874.98919"
+     id="path1517"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.31066704px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.5763706px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.61190361"
+     id="text1519"
+     x="668.13025"
+     y="406.81454">the cps hackathon</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:55.28287888px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-6.80741358px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.067204"
+     id="text905"
+     x="672.97308"
+     y="486.14169">event 0</text>
+  <rect
+     y="441.37949"
+     x="647.90558"
+     height="100.24658"
+     width="244.51006"
+     id="rect907"
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path909"
+     d="M 665.33203,500.69518 H 874.98919"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     y="527.71729"
+     x="668.70667"
+     id="text911"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.92856789px;font-family:'Fantasque Sans Mono';-inkscape-font-specification:'Fantasque Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.85716641px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.72090083">the cps hackathon</text>
+  <text
+     y="606.84717"
+     x="673.08563"
+     id="text913"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:48.62266541px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-10px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.57718205">event 0</text>
+  <rect
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect915"
+     width="244.51006"
+     height="100.24658"
+     x="647.90558"
+     y="561.37952" />
+  <path
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 665.33203,620.69518 H 874.98919"
+     id="path917"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000427px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904"
+     id="text919"
+     x="664.78186"
+     y="647.93652">the cps hackathon</text>
+  <rect
+     y="681.37952"
+     x="647.90558"
+     height="100.24658"
+     width="244.51006"
+     id="rect923"
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path925"
+     d="M 665.33203,740.69518 H 874.98919"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     y="767.93652"
+     x="666.28186"
+     id="text927"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:MonacoB;-inkscape-font-specification:'MonacoB, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904">the cps hackathon</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38317108px;font-family:MonacoB;-inkscape-font-specification:'MonacoB, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922"
+     id="text941"
+     x="684.47394"
+     y="724.64728">event 0</text>
+  <rect
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect955"
+     width="244.51006"
+     height="100.24658"
+     x="647.90558"
+     y="801.37952" />
+  <path
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 665.33203,860.69518 H 874.98919"
+     id="path958"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904"
+     id="text960"
+     x="666.28186"
+     y="887.93646">the cps hackathon</text>
+  <text
+     y="844.64728"
+     x="684.47394"
+     id="text963"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38266754px;font-family:Menlo;-inkscape-font-specification:'Menlo, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922">event 0</text>
+  <rect
+     y="921.37939"
+     x="647.90558"
+     height="100.24658"
+     width="244.51006"
+     id="rect985"
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path987"
+     d="M 665.33203,980.69515 H 874.98919"
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <text
+     y="1007.9365"
+     x="667.34253"
+     id="text989"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000046px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904">the cps hackathon</text>
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.38266754px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-3.21194696px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.24678922"
+     id="text991"
+     x="684.47394"
+     y="964.64722">event 0</text>
+  <text
+     y="387.34439"
+     x="1557.925"
+     id="text913-3"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:48.62266541px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-10px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.57718205">event 0</text>
+  <rect
+     style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect915-4"
+     width="244.51006"
+     height="100.24658"
+     x="1532.7449"
+     y="341.87674" />
+  <path
+     style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1550.1714,401.19241 h 209.6572"
+     id="path917-4"
+     inkscape:connector-curvature="0" />
+  <text
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.02000427px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.63146317px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.63328904"
+     id="text919-3"
+     x="1549.6212"
+     y="428.43378">the cps hackathon</text>
   <text
      id="text1093"
      y="250"
@@ -493,7 +553,7 @@
        sodipodi:role="line" /></text>
   <g
      id="g1171"
-     transform="matrix(0.59883588,0,0,0.59883588,1257.8339,188.41616)">
+     transform="matrix(0.16768963,0,0,0.25245185,2228.2085,958.23151)">
     <path
        style="isolation:isolate;fill:none;stroke:#000000;stroke-width:4.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 313.3629,468.38346 h 44.2891 v 30.41257 h -16.8642 v -19.60994 h -15.5994 v 28.88529 h 61.5545 v -23.28456 h -8.4322 v -38.90763"
@@ -508,28 +568,29 @@
        sodipodi:nodetypes="ccccccccc" />
   </g>
   <text
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:31.53204727px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-8.10224152px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.63489723"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.83394814px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-2.78381109px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.56172663"
      id="text1038-1-2-6-5"
-     x="1411.3171"
-     y="537.09387">event 0</text>
+     x="2786.6936"
+     y="900.77039"
+     transform="scale(0.81501166,1.2269763)">event 0</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.8744123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1409.1698,531.90861 v 16.09076 h 37.4746 v 36.2042 h -14.6087 v -26.8885 h 24.7712 v 51.23635"
+     style="fill:none;stroke:#000000;stroke-width:0.98760581;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2270.5865,1103.038 v 6.7834 h 10.4939 v 15.2626 h -4.0908 v -11.3354 h 6.9365 v 21.5998"
      id="path1215"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.8744123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1538.3193,530.85001 v 27.9471 h -53.777 v 52.93011"
+     style="fill:none;stroke:#000000;stroke-width:0.98760581;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2306.7517,1102.5917 v 11.7817 h -15.0589 v 22.3138"
      id="path1217"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.8744123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1473.5329,543.55324 v 36.2042 h 35.3573 v 19.47828 h -65.2099 v 23.07753"
+     style="fill:none;stroke:#000000;stroke-width:0.98760581;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2288.6099,1107.947 v 15.2626 h 9.9009 v 8.2115 h -18.2605 v 9.7288"
      id="path1219"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2.8744123;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 1499.9223,545.92118 v 46.7092 h -32.6365 v 32.03772"
+     style="fill:none;stroke:#000000;stroke-width:0.98760581;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 2295.9996,1108.9453 v 19.6912 h -9.1391 v 13.5062"
      id="path1221"
      inkscape:connector-curvature="0" />
   <g
@@ -630,4 +691,157 @@
        id="tspan1485"
        x="584.77728"
        y="137.81575">+</tspan></text>
+  <g
+     id="g1258">
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.6555748px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-12px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:2.73012567"
+       id="text1038-1-2-6-2"
+       x="1549.1582"
+       y="140.5038">event 0</text>
+    <rect
+       y="96.345024"
+       x="1531.3655"
+       height="100.24658"
+       width="244.51006"
+       id="rect1069-6"
+       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1075-0"
+       d="m 1548.792,155.66073 h 209.6571"
+       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       y="183.16464"
+       x="1546.8243"
+       id="text1089-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.56145477px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.87999916px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.11793625">the cps hackathon</text>
+  </g>
+  <g
+     id="g1270"
+     transform="translate(0,-127.70905)">
+    <text
+       y="392.7988"
+       x="1559.7115"
+       id="text1513-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.04400253px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-5.66975832px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:3.38749266">event 0</text>
+    <rect
+       style="opacity:1;isolation:isolate;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5.80373955;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect1515-6"
+       width="244.51006"
+       height="100.24658"
+       x="1531.4637"
+       y="347.40854" />
+    <path
+       style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1548.8902,406.72422 h 209.6571"
+       id="path1517-7"
+       inkscape:connector-curvature="0" />
+    <text
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20.31066704px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-1.5763706px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:0.61190361"
+       id="text1519-5"
+       x="1551.6884"
+       y="432.84357">the cps hackathon</text>
+  </g>
+  <g
+     id="g1276"
+     transform="translate(0,-125.0318)" />
+  <g
+     style="isolation:isolate"
+     transform="matrix(7.0708557,0,0,7.0708557,1134.0637,-79.249107)"
+     id="layer1-6"
+     inkscape:label="Layer 1">
+    <g
+       id="g1483-0"
+       transform="translate(0.1414256,0.6364152)">
+      <path
+         style="opacity:1;fill:#5baeed;fill-opacity:1;stroke:none;stroke-width:0.21763;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 15.093242,26.86764 a 4.6190869,4.6190869 0 0 0 -4.223081,2.761621 c 0.635705,3.05336 3.043615,5.451664 6.102263,6.072995 a 4.6190869,4.6190869 0 0 0 2.739832,-4.215438 4.6190869,4.6190869 0 0 0 -0.140813,-1.113169 2.4962139,2.4751897 0 0 1 -1.23707,0.328943 2.4962139,2.4751897 0 0 1 -2.496255,-2.47528 2.4962139,2.4751897 0 0 1 0.330568,-1.227152 4.6190869,4.6190869 0 0 0 -1.075444,-0.13252 z m -4.584543,4.102431 a 4.6190869,4.6190869 0 0 0 -0.03463,0.516747 4.6190869,4.6190869 0 0 0 4.619177,4.619014 4.6190869,4.6190869 0 0 0 0.541787,-0.03529 c -2.3709,-0.858497 -4.256223,-2.735138 -5.126331,-5.100476 z"
+         id="path1689-5-4"
+         inkscape:connector-curvature="0" />
+      <g
+         style="opacity:1"
+         id="g1468-4-5"
+         transform="matrix(0.31465267,0,0,0.31465267,-18.456611,0.04463181)">
+        <ellipse
+           style="opacity:1;fill:url(#linearGradient1246);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71170402;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="ellipse2124-5-8"
+           cx="116.92564"
+           cy="89.567818"
+           rx="5.6461158"
+           ry="5.5985618" />
+      </g>
+      <ellipse
+         style="opacity:1;fill:url(#linearGradient1248);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22393958;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse2159-9-2"
+         cx="22.728449"
+         cy="28.227385"
+         rx="1.7765657"
+         ry="1.7616024" />
+      <ellipse
+         ry="1.7616024"
+         rx="1.7765657"
+         cy="28.227385"
+         cx="27.122543"
+         id="ellipse2163-4-8"
+         style="opacity:1;fill:url(#linearGradient1250);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22393958;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="opacity:1;fill:url(#linearGradient1252);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22393958;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse2167-6-6"
+         cx="31.516636"
+         cy="28.227385"
+         rx="1.7765657"
+         ry="1.7616024" />
+      <g
+         aria-label="chicode"
+         transform="matrix(0.1107484,0,0,0.1107484,-32.482485,-12.563286)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'big john';-inkscape-font-specification:'big john';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none"
+         id="flowRoot2187-9-8">
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 510.22766,401.53969 c -2.72,-2.72 -6.44,-4.36 -10.56,-4.36 -8.28,0 -15,6.72 -15,15 0,8.28 6.72,15 15,15 4.16,0 7.92,-1.72 10.64,-4.44 l -5.6,-5.52 c -1.24,1.28 -3,2 -5.04,2 -4.08,0 -7.04,-2.96 -7.04,-7.04 0,-4.08 2.96,-7.04 7.04,-7.04 2.04,0 3.8,0.72 5.04,1.96 z"
+           id="path949-5" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 516.32516,397.17969 v 30 h 7.88 v -11.44 h 9.52 v 11.44 h 7.88 v -30 h -7.88 v 10.68 h -9.52 v -10.68 z"
+           id="path951-3" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 547.61328,427.17969 h 7.88 v -30 h -7.88 z"
+           id="path953-4" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 586.39953,401.53969 c -2.72,-2.72 -6.44,-4.36 -10.56,-4.36 -8.28,0 -15,6.72 -15,15 0,8.28 6.72,15 15,15 4.16,0 7.92,-1.72 10.64,-4.44 l -5.6,-5.52 c -1.24,1.28 -3,2 -5.04,2 -4.08,0 -7.04,-2.96 -7.04,-7.04 0,-4.08 2.96,-7.04 7.04,-7.04 2.04,0 3.8,0.72 5.04,1.96 z"
+           id="path955-0" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 591.27203,412.21969 c 0,8.28 6.68,14.96 14.96,14.96 8.28,0 15,-6.68 15,-14.96 0,-8.28 -6.72,-15.04 -15,-15.04 -8.28,0 -14.96,6.76 -14.96,15.04 z m 22.12,-0.04 c 0,3.92 -3.2,7.16 -7.16,7.16 -3.92,0 -7.12,-3.24 -7.12,-7.16 0,-3.96 3.2,-7.16 7.12,-7.16 3.96,0 7.16,3.2 7.16,7.16 z"
+           id="path957-1" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 626.71578,427.17969 h 11.12 c 8.28,0 15,-6.72 15,-15 0,-8.28 -6.72,-15 -15,-15 h -11.12 z m 7.84,-22.04 h 3.32 c 3.92,0 7.12,3.2 7.12,7.08 0,3.92 -3.2,7.12 -7.12,7.12 h -3.32 z"
+           id="path959-7" />
+        <path
+           style="fill:#1a1a1a;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="m 658.27828,427.17969 h 18.64 v -6.44 h -10.76 v -5.52 h 9.52 v -6.64 h -9.52 v -4.88 h 10.76 v -6.52 h -18.64 z"
+           id="path961-7" />
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.65600204px;line-height:1.25;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:6.1500001px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;fill-opacity:1;stroke:none"
+     x="1468.3354"
+     y="163.8448"
+     id="text1487-8"><tspan
+       sodipodi:role="line"
+       id="tspan1485-0"
+       x="1468.3354"
+       y="163.8448">+</tspan></text>
 </svg>
