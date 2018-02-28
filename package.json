@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "parcel index.html -d docs"
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d docs --public-url ./"
   },
   "dependencies": {
     "@types/matter-js": "^0.10.0",
