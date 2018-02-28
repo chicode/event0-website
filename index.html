@@ -1,61 +1,131 @@
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
-	 rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
-	 rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
-	 rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata:regular,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,900" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,700,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="stylesheet.scss">
-	<title>Event0</title>
-	<style></style>
+	<title>event 0</title>
 </head>
 
-<body class="vsc-initialized">
-	<!-- <canvas></canvas> -->
-	<div id="game"></div>
-	<script src="matter.ts"></script>
-
-	<!-- <div class="header">
-		<a class="chicode-logo" href="http://chicode.net"><img src="img/chicode_text.svg" alt="Chicode"></a>
-		<div class="header-body">
-			<h1>event[0]</h1>
-			<h2>the cps hackathon</h2>
-			<a href="http://google.com"><button>apply</button></a>
+<body>
+	<div class="page">
+		<div class="header">
+			<div class="banner"></div>
+			<div class="circle"></div>
+			<p class="h1">memorial day weekend</p>
+			<img src="img/logo-buildings.svg">
+		</div>
+		<div class="title">
+			<img src="img/logo-text.svg" alt="event 0">
+			<a class="button" href="http://google.com"><button>register</button></a>
+			<p class="h6">(by 5/1)</p>
+		</div>
+		<div class="main">
+			<p class="frame h2">you will have 24 hours to make something really cool</p>
+			<div class="row pipes">
+				<div class="pipe left">
+					<div class="shaft"></div>
+					<div class="end"></div>
+				</div>
+				<div class="pipe center">
+					<div class="shaft"></div>
+					<div class="end"></div>
+				</div>
+				<div class="pipe right">
+					<div class="shaft"></div>
+					<div class="end"></div>
+				</div>
+			</div>
+			<div class="row labels">
+				<p class="h3">games</p>
+				<p class="h3">sites</p>
+				<p class="h3">apps</p>
+			</div>
+			<div class="tunnel">
+				<div class="empty"></div>
+				<div class="h3 seperator">
+					<p>workshops/<br>mentors</p>
+				</div>
+				<div class="empty"></div>
+				<div class="h3 seperator">
+					<p>awards</p>
+				</div>
+				<div class="awards">
+					<div class="row small-awards">
+						<div>
+							<img src="img/award.svg">
+							<p class="h4">category best</p>
+						</div>
+						<div>
+							<img src="img/zap.svg">
+							<p class="h4">creativity</p>
+						</div>
+						<div>
+							<img src="img/trending-up.svg">
+							<p class="h4">improvement</p>
+						</div>
+					</div>
+					<div class="big-award">
+						<img src="img/trophy.svg">
+						<p class="h4">best overall</p>
+						<p class="h5">(one of each)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="schedule">
+			<h2 class="h1">schedule</h2>
+			<div class="schedule row">
+				<div class="timestrip"></div>
+				<div class="times">
+					<p><span class="time">08:00</span>doors open</p>
+					<p><span class="time">08:30</span>opening ceremony</p>
+					<p><span class="time">09:15</span>coding starts; workshops</p>
+					<p><span class="time">12:00</span>lunch</p>
+					<p><span class="time">01:00</span>CTF</p>
+					<p><span class="time">06:00</span>dinner</p>
+					<p><span class="time">08:00</span>submissions due; presentations</p>
+					<p><span class="time">09:00</span>awards ceremony</p>
+					<p><span class="time">09:30</span>end</p>
+				</div>
+			</div>
+		</div>
+		<div class="faq">
+			<h2 class="h1">faq</h2>
+			<div class="tiles">
+				<div class="row">
+					<div class="tile"></div>
+					<div class="tile"></div>
+					<div class="tile"></div>
+				</div>
+				<div class="row">
+					<div class="tile"></div>
+					<div class="tile"></div>
+					<div class="tile"></div>
+				</div>
+				<div class="row">
+					<div class="tile"></div>
+					<div class="tile"></div>
+					<div class="tile"></div>
+				</div>
+			</div>
+		</div>
+		<div class="about">
+			<h2 class="h1">about</h2>
+			<p>
+				We are high school students, just like you, that want to further CS within Chicago. All of us love coding and want to see
+				more CPS kclasss do it - that's why we created Chicode, an organization dedicated to doing just that. Check out all the things
+				we do below:
+			</p>
+			<a class="chicode-logo" href="http://chicode.net">
+				<img src="img/chicode-text.svg" alt="Chicode">
+			</a>
 		</div>
 	</div>
-	<div class="theme">
-		<h2>theme</h2>
-		<h1>games done quick</h1>
-		<p>you will be given 8 hours to make an awesome video game</p>
-		<br>
-		<h2>awards</h2>
-		<div class="row awards">
-			<div>
-				<img src="img/award.svg">
-				<h3>best overall</h3>
-			</div>
-			<div>
-				<img src="img/users.svg">
-				<h3>best multiplayer</h3>
-			</div>
-			<div>
-				<img src="img/trending-up.svg">
-				<h3>most improved</h3>
-			</div>
-		</div>
+	<div class="footer">
+		<p class="h4">designed with ❤ by <a href="https://github.com/jetmate">Anton</a></p>
 	</div>
-	<div class="body">
-		<h2>cps coders. united.</h2>
-		<p>event0 is the first hackathon by CPS students, for CPS studets</p>
-	</div> -->
 </body>
 </html>

@@ -1,162 +1,280 @@
-// // $dark-blue: #155A71;
-// $dark-blue: #234264;
-// $blue: #0E9ECE;
-// $light-blue: #87BED1;
-// // $light-blue: #74B8CE;
-// // $light-blue: #74B8CE;
-// // $light-blue: #8FB8DE;
-// $black: #353535;
-// // $yellow: #DFD46B;
-// $yellow: #EABD69;
+$white: white;
+$grey: #EBEBEB;
+$dark-grey: #D5D5D5;
+$orange: #FFB091;
+$red: #FFA3A0;
+$orange-red: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
+$border-radius: 5px;
 
-// @mixin shadow-1 {
-// 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-// }
-
-// @mixin shadow-2 {
-// 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-// }
-
-html, body, #game {
+html, body {
+	overflow-x: hidden;
 	height: 100%;
+	margin: 0;
+	font-family: Source Code Pro;
+	font-size: 1.5rem;
+
+	display: flex;
+	flex-direction: column;
+
+	h2 {
+		margin-top: 200px;
+	}
+
+	.h1, .h2, .h3, .h4, .h5, .h6 {
+		text-align: center;
+		font-weight: bold;
+	}
+	.h1 {
+		font-size: 3rem;
+	}
+	.h2 {
+		font-size: 2.5rem;
+	}
+	.h3 {
+		font-size: 2rem;
+	}
+	.h4 {
+		font-size: 1rem;
+	}
+	.h5 {
+		font-size: .7rem;
+	}
+	.h6 {
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	.row {
+		display: flex;
+		justify-content: space-around;
+	}
+	img {
+		display: block;
+		margin: auto;
+	}
+
+	button {
+		outline: 0;
+		border: 0;
+		background: $orange;
+		border-radius: $border-radius;
+		font-weight: bold;
+		margin: auto;
+		display: block;
+		padding: 10px;
+		font-size: 1.5rem;
+		transition-duration: .3s;
+		// box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+	button:hover {
+		transform: translateY(-3px);
+	}
+	button:active {
+		transform: translateY(4px);
+	}
+
+	a.button {
+		text-decoration:  none
+	}
 }
 
-
-body {
-	overflow: hidden;
+.header {
+	position: relative;
+	height: 600px;
+	p {
+		color: $white;
+		padding-top: 100px;
+		margin: 0;
+	}
+	img {
+		position: absolute;
+		right: 0;
+		left: 0;
+		bottom: 0;
+	}
+	.banner {
+		background: $orange-red;
+		position: absolute;
+		width: 100%;
+		height: 113%;
+		z-index: -1;
+	}
+	.circle {
+		position: absolute;
+		background: $white;
+		height: 200px;
+		width: 120%;
+		border-radius: 100%;
+		bottom: 0;
+		left: -10%;
+		transform: translateY(100%);
+	}
 }
-canvas {
-	height: 100%;
-	position: absolute;
+
+.title {
+	position: relative;
+	img {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	button {
+		font-size: 2rem;
+	}
 }
-#game {
-	position: absolute;
-	width: 100%;
+
+.main {
+	.frame {
+		background: $grey;
+		padding: 20px;
+		margin: 0;
+		margin-top: 100px;
+	}
+
+	.pipes {
+		justify-content: center;
+	}
+	.pipe {
+		z-index: -1;
+		margin: 0 6%;
+		.shaft {
+			margin: auto;
+			background: $grey;
+			width: 86;
+		}
+		.end {
+			background: $dark-grey;
+			height: 70;
+			width: 138;
+			border-radius: $border-radius;
+			margin: auto;
+		}
+		&.center .shaft {
+			height: 100;
+		}
+		&.left .shaft, &.right .shaft {
+			height: 200;
+		}
+		$translateY: -60px;
+		$rotation: 30deg;
+		&.left {
+			transform: translateY($translateY) rotate(-$rotation);
+		}
+		&.right {
+			transform: translateY($translateY) rotate($rotation);
+		}
+	}
+	.labels {
+		justify-content: center;
+		* {
+			margin: 0 4%;
+		}
+	}
+	.tunnel {
+		// height: 1000px;
+		background: $grey;
+		width: 30%;
+		margin: auto;
+		margin-top: 200px;
+		border: 30px solid $dark-grey;
+		border-top: 0;
+		.empty {
+			height: 300px;
+		}
+		.seperator {
+			background: $dark-grey;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.awards {
+			// height: 300px;
+			// img {
+			// 	height: 100%;
+			// }
+			.small-awards {
+				// height: 100%;
+				// width: 100%;
+			}
+			.small-awards * {
+				// flex: 1;
+				margin: 20px 0;
+				img {
+					height: 100px;
+					margin: auto;
+				}
+			}
+			.big-award {
+				img {
+					height: 200px;
+				}
+			}
+		}
+	}
 }
-// 	font-family: Montserrat;
-// 	font-weight: 500;
-// 	height: 100%;
+.schedule {
+	.schedule {
+		margin-left: 20%;
+		justify-content: unset;
+	}
+	.timestrip {
+		background: linear-gradient(180deg, #ffb8a0 0%, #ffa3a0 100%);
+		// height: 100%;
+		width: 60px;
+		border-radius: $border-radius;
+		margin-right: 80px;
+	}
+	.times * {
+		margin: 20px 0;
+	}
+	&.times:last-child {
+		margin-bottom: 0;
+	}
+	.time {
+		font-weight: bold;
+		margin-right: 30px;
+	}
+}
+.faq {
+	.row {
+		justify-content: center;
+	}
+	.tiles {
+		margin: auto;
+		width: 80%;
+	}
 
-// 	h1, h2, h3 {
-// 		text-align: center;
-// 		font-weight: bold;
-// 	}
+	.tile {
+		background: $grey;
+		border-radius: $border-radius;
+		width: 30%;
+		height: 300px;
+		margin: 15px;
+	}
+}
 
-// 	a {
-// 		text-decoration: none;
-// 	}
+.about {
+	p {
+		width: 70%;
+		margin: auto;
+		text-align: justify;
+	}
+	img {
+		margin: auto;
+		margin-top: 80px;
+		margin-bottom: 150px;
+		width: 400px;
+	}
+}
 
-// 	button {
-// 		@include shadow-2();
-// 		display: block;
-// 		margin: auto;
-// 		outline: 0;
-// 		border: 0;
-// 		font-family: Montserrat;
-// 		font-weight: bold;
-// 		background: white;
-// 		border-radius: 4px;
-// 		color: $black;
-// 		transition-duration: .3s;
-// 	}
+.page {
+	flex: 1 0 auto;
+}
 
-// 	button:hover {
-// 		transform: translateY(-5px);
-// 	}
-
-// 	button:active {
-// 		transform: translateY(3px);
-// 	}
-
-// 	.row {
-// 		display: flex;
-// 	}
-// 	.row > * {
-// 		flex: 1;
-// 	}
-
-// 	img {
-// 		display: block;
-// 		margin: auto;
-// 	}
-
-// 	canvas {
-// 		width: 100%;
-// 		height: 100%
-// 	}
-// }
-
-// .header {
-// 	@include shadow-1();
-// 	background: $blue;
-// 	position: relative;
-// 	z-index: 3;
-
-// 	button {
-// 		font-size: 1.5em;
-// 		padding: 5px;
-// 	}
-
-// 	.chicode-logo {
-// 		position: absolute;
-// 		width: 15%;
-// 		margin: 15px;
-// 		z-index: 1;
-// 		img {
-// 			width: 100%;
-// 		}
-// 	}
-
-// 	.header-body {
-// 		padding: 100px;
-// 		color: $dark-blue;
-// 		// text-shadow: 0 0 2px rgba(0,0,0,0.73);
-// 		position: relative;
-
-// 		h1 {
-// 			font-size: 7em;
-// 			margin: 0;
-// 		}
-// 		h2 {
-// 			margin-top: 0;
-// 			font-size: 2em;
-// 		}
-// 	}
-
-// 	canvas {
-// 		position: absolute;
-// 		width: 100%;
-// 		height: 100%;
-// 	}
-// }
-
-// .theme {
-// 	@include shadow-1();
-// 	transform: translateY(-20px);
-// 	background: $yellow;
-// 	padding: 30px;
-// 	width: 60%;
-// 	margin: auto;
-// 	border-radius: 10px;
-// 	transition-duration: .5s;
-
-// 	&:hover {
-// 		transform: translateY(-10px);
-// 	}
-
-// 	h2 {
-// 		font-size: 1em;
-// 	}
-// 	h1 {
-// 		margin-top: 10px;
-// 	}
-// 	p {
-// 		text-align: center;
-// 	}
-
-// 	.awards {
-// 		img {
-// 			width: 100px;
-// 		}
-// 	}
-// }
+.footer {
+	flex-shrink: 0;
+	background: $grey;
+	a {
+		color: black;
+	}
+}
