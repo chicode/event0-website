@@ -9,9 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+<<<<<<< Updated upstream:docs/b4a2a42d94ed7b5f5668d7ced4a448d4.svg
    width="36.799046mm"
    height="78.38282mm"
    viewBox="0 0 36.799046 78.382811"
+=======
+   width="43.894524mm"
+   height="93.496346mm"
+   viewBox="0 0 43.894524 93.496335"
+>>>>>>> Stashed changes:img/logo3.svg
    version="1.1"
    id="svg1863"
    inkscape:version="0.92.2 (unknown)"
@@ -26,8 +32,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
+<<<<<<< Updated upstream:docs/b4a2a42d94ed7b5f5668d7ced4a448d4.svg
      inkscape:cx="796.64649"
      inkscape:cy="-311.19263"
+=======
+     inkscape:cx="926.18403"
+     inkscape:cy="-120.98776"
+>>>>>>> Stashed changes:img/logo3.svg
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,7 +51,8 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     scale-x="1" />
+     scale-x="1"
+     showguides="false" />
   <metadata
      id="metadata1860">
     <rdf:RDF>
@@ -57,9 +69,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
+<<<<<<< Updated upstream:docs/b4a2a42d94ed7b5f5668d7ced4a448d4.svg
      transform="translate(-19.020172,33.105146)">
     <g
        transform="matrix(0.49766183,0,0,0.49766183,-785.57452,2.4742832)"
+=======
+     transform="translate(-15.472441,45.513663)">
+    <g
+       transform="matrix(0.59361942,0,0,0.59361942,-944.26168,-3.0739257)"
+>>>>>>> Stashed changes:img/logo3.svg
        style="isolation:isolate"
        id="g1258-1"
        inkscape:export-xdpi="375.67001"
@@ -81,7 +99,11 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.56145477px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.87999916px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.11793625">the cps hackathon</text>
     </g>
     <g
+<<<<<<< Updated upstream:docs/b4a2a42d94ed7b5f5668d7ced4a448d4.svg
        transform="matrix(0.42268947,0,0,0.42268947,-557.43343,-257.07825)"
+=======
+       transform="matrix(0.50419113,0,0,0.50419113,-672.13114,-312.67256)"
+>>>>>>> Stashed changes:img/logo3.svg
        style="isolation:isolate"
        id="g1836">
       <path
