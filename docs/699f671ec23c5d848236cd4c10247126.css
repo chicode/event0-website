@@ -1,0 +1,198 @@
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  font-family: Source Code Pro;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column; }
+  html h2, body h2 {
+    margin-top: 200px; }
+  html .h1, html .h2, html .h3, html .h4, html .h5, html .h6, body .h1, body .h2, body .h3, body .h4, body .h5, body .h6 {
+    text-align: center;
+    font-weight: bold; }
+  html .h1, body .h1 {
+    font-size: 3rem; }
+  html .h2, body .h2 {
+    font-size: 2.5rem; }
+  html .h3, body .h3 {
+    font-size: 2rem; }
+  html .h4, body .h4 {
+    font-size: 1rem; }
+  html .h5, body .h5 {
+    font-size: .7rem; }
+  html .h6, body .h6 {
+    font-weight: 600;
+    font-size: 1rem; }
+  html .row, body .row {
+    display: flex;
+    justify-content: space-around; }
+  html img, body img {
+    display: block;
+    margin: auto; }
+  html button, body button {
+    outline: 0;
+    border: 0;
+    background: #FFB091;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    transition-duration: .3s; }
+  html button:hover, body button:hover {
+    transform: translateY(-3px); }
+  html button:active, body button:active {
+    transform: translateY(4px); }
+  html a.button, body a.button {
+    text-decoration: none; }
+
+.header {
+  position: relative;
+  height: 600px; }
+  .header p {
+    color: white;
+    padding-top: 100px;
+    margin: 0; }
+  .header img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0; }
+  .header .banner {
+    background: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
+    position: absolute;
+    width: 100%;
+    height: 113%;
+    z-index: -1; }
+  .header .circle {
+    position: absolute;
+    background: white;
+    height: 200px;
+    width: 120%;
+    border-radius: 100%;
+    bottom: 0;
+    left: -10%;
+    transform: translateY(100%); }
+
+.title {
+  position: relative; }
+  .title img {
+    padding-top: 40px;
+    padding-bottom: 60px; }
+  .title button {
+    font-size: 2rem; }
+
+.main .frame {
+  background: #EBEBEB;
+  padding: 20px;
+  margin: 0;
+  margin-top: 100px; }
+
+.main .pipes {
+  justify-content: center; }
+
+.main .pipe {
+  z-index: -1;
+  margin: 0 6%; }
+  .main .pipe .shaft {
+    margin: auto;
+    background: #EBEBEB;
+    width: 86; }
+  .main .pipe .end {
+    background: #D5D5D5;
+    height: 70;
+    width: 138;
+    border-radius: 5px;
+    margin: auto; }
+  .main .pipe.center .shaft {
+    height: 100; }
+  .main .pipe.left .shaft, .main .pipe.right .shaft {
+    height: 200; }
+  .main .pipe.left {
+    transform: translateY(-60px) rotate(-30deg); }
+  .main .pipe.right {
+    transform: translateY(-60px) rotate(30deg); }
+
+.main .labels {
+  justify-content: center; }
+  .main .labels * {
+    margin: 0 4%; }
+
+.main .tunnel {
+  background: #EBEBEB;
+  width: 30%;
+  margin: auto;
+  margin-top: 200px;
+  border: 30px solid #D5D5D5;
+  border-top: 0; }
+  .main .tunnel .empty {
+    height: 300px; }
+  .main .tunnel .seperator {
+    background: #D5D5D5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .main .tunnel .awards .small-awards * {
+    margin: 20px 0; }
+    .main .tunnel .awards .small-awards * img {
+      height: 100px;
+      margin: auto; }
+  .main .tunnel .awards .big-award img {
+    height: 200px; }
+
+.schedule .schedule {
+  margin-left: 20%;
+  justify-content: unset; }
+
+.schedule .timestrip {
+  background: linear-gradient(180deg, #ffb8a0 0%, #ffa3a0 100%);
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 80px; }
+
+.schedule .times * {
+  margin: 20px 0; }
+
+.schedule.times:last-child {
+  margin-bottom: 0; }
+
+.schedule .time {
+  font-weight: bold;
+  margin-right: 30px; }
+
+.faq .row {
+  justify-content: center; }
+
+.faq .tiles {
+  margin: auto;
+  width: 80%; }
+
+.faq .tile {
+  background: #EBEBEB;
+  border-radius: 5px;
+  width: 30%;
+  height: 300px;
+  margin: 15px; }
+
+.about p {
+  width: 70%;
+  margin: auto;
+  text-align: justify; }
+
+.about img {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  width: 400px; }
+
+.page {
+  flex: 1 0 auto; }
+
+.footer {
+  flex-shrink: 0;
+  background: #EBEBEB; }
+  .footer a {
+    color: black; }

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html -d docs"
   },
   "dependencies": {
     "@types/matter-js": "^0.10.0",
