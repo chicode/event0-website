@@ -10,12 +10,15 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1920"
-   height="482.67538"
-   viewBox="0 0 507.99998 127.70784"
+   height="800"
+   viewBox="0 0 507.99998 211.66663"
    version="1.1"
    id="svg1863"
    inkscape:version="0.92.2 (unknown)"
-   sodipodi:docname="banner.svg">
+   sodipodi:docname="banner.svg"
+   inkscape:export-filename="/home/jetmate/programming/web-dev/event0-website/img/banner.png"
+   inkscape:export-xdpi="96.06456"
+   inkscape:export-ydpi="96.06456">
   <defs
      id="defs1857" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="963.91121"
-     inkscape:cy="422.02314"
+     inkscape:zoom="0.35885417"
+     inkscape:cx="699.58527"
+     inkscape:cy="19.424105"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -41,7 +44,12 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      scale-x="1"
-     units="px" />
+     units="px"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="true" />
   <metadata
      id="metadata1860">
     <rdf:RDF>
@@ -58,16 +66,26 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(15.253303,32.105141)">
+     transform="translate(15.253303,116.06395)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect1841"
+       width="509.41571"
+       height="212.21199"
+       x="-15.787842"
+       y="-116.07475"
+       ry="0.20670572" />
     <g
        id="g1835"
-       transform="translate(201.327)">
+       transform="matrix(0.49608307,0,0,0.49608307,220.18342,-25.732609)"
+       inkscape:export-xdpi="96.06456"
+       inkscape:export-ydpi="96.06456">
       <g
          inkscape:export-ydpi="375.67001"
          inkscape:export-xdpi="375.67001"
          id="g1258-1"
          style="isolation:isolate"
-         transform="matrix(0.49766183,0,0,0.49766183,-785.57452,2.4742832)">
+         transform="matrix(0.49766183,0,0,0.49766183,-785.22515,-21.166116)">
         <text
            y="140.5038"
            x="1549.1582"
@@ -83,47 +101,6 @@
            id="text1089-6-1"
            x="1546.8243"
            y="183.16464">the cps hackathon</text>
-      </g>
-      <g
-         id="g1836"
-         style="isolation:isolate"
-         transform="matrix(0.42268947,0,0,0.42268947,-557.43343,-257.07825)">
-        <path
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           d="m 1376.6791,572.34675 h 38.3864 l 7.6197,137.96776 h -53.6258 z"
-           id="rect1385"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect1387"
-           width="35.481537"
-           height="80.145836"
-           x="1410.3534"
-           y="630.1687" />
-        <rect
-           ry="0"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect1383"
-           width="39.046886"
-           height="48.457737"
-           x="1383.6488"
-           y="661.85675" />
-        <g
-           style="stroke-width:11.27838135;stroke-miterlimit:4;stroke-dasharray:none"
-           id="g1396"
-           transform="matrix(0.88665208,0,0,0.88665208,167.13216,74.573926)">
-          <path
-             inkscape:connector-curvature="0"
-             id="path1390"
-             d="M 1375.8199,555.76797 V 513.50729"
-             style="fill:none;stroke:#000000;stroke-width:5.63919067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-          <path
-             style="fill:none;stroke:#000000;stroke-width:5.63919067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="M 1395.8199,555.76797 V 513.50729"
-             id="path1392"
-             inkscape:connector-curvature="0" />
-        </g>
       </g>
     </g>
   </g>
