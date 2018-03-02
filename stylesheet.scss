@@ -7,7 +7,6 @@ $orange-red: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
 $border-radius: 5px;
 
 html, body {
-	overflow-x: hidden;
 	height: 100%;
 	margin: 0;
 	font-family: Source Code Pro;
@@ -76,6 +75,18 @@ html, body {
 	a.button {
 		text-decoration:  none
 	}
+}
+
+.page {
+	position: relative;
+	overflow-x: hidden;
+}
+
+.svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	// z-index: -1;
 }
 
 .header {

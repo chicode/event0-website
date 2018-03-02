@@ -6,6 +6,10 @@
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/@types/matter-js/-/matter-js-0.10.0.tgz#b533b537209577e5e4abed74c63c86b575568fba"
 
+"@types/p2@^0.7.31":
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/@types/p2/-/p2-0.7.31.tgz#2ddc42624c68c18ef862fc7233b9dae636c8d9bb"
+
 "@types/paper@^0.9.14":
   version "0.9.14"
   resolved "https://registry.yarnpkg.com/@types/paper/-/paper-0.9.14.tgz#167ad65feba4f20a3dd5d84780229e4aec6257c5"
@@ -1349,6 +1353,12 @@ osenv@0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+p2@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/p2/-/p2-0.7.1.tgz#25f2474d9bc3a6d3140a1da26a67c9e118ac9543"
+  dependencies:
+    poly-decomp "0.1.1"
+
 paper@^0.11.5:
   version "0.11.5"
   resolved "https://registry.yarnpkg.com/paper/-/paper-0.11.5.tgz#d662de67bce8218c287bfe17586d099d2cc48040"
@@ -1394,6 +1404,10 @@ pinkie-promise@^2.0.0:
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+
+poly-decomp@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/poly-decomp/-/poly-decomp-0.1.1.tgz#9f68c4fa558663791c9ba4c2df7283f3096c23c9"
 
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
