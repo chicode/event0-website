@@ -57,10 +57,16 @@ class _P2 extends Physics<p2.Body> {
 	}
 }
 
-class _Matter extends Physics<matter.Body> {
-	private engine = matter.Engine.create()
+// class _Matter extends Physics<matter.Body> {
+// 	private engine = matter.Engine.create()
+// 	getBodie(): Body[] {
+// 		return
+// 	}
+// 	update() {
+// 		matter.Engine.update(this.engine)
+// 	}
 
-}
+// }
 
 
 window.onload = () => {

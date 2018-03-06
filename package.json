@@ -1,26 +1,17 @@
 {
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html -d docs --public-url ./"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d docs --public-url ./"
   },
   "dependencies": {
     "@types/matter-js": "^0.10.0",
     "@types/p2": "^0.7.31",
-    "@types/paper": "^0.9.14",
     "@types/svg.js": "^2.3.1",
-    "acorn": "^5.4.1",
-    "es6-tween": "^5.1.0",
     "matter-js": "^0.14.1",
     "p2": "^0.7.1",
-    "paper": "^0.11.5",
-    "svg.js": "^2.6.4",
-    "svg.pathmorphing.js": "^0.1.1",
-    "two.js": "^0.7.0-alpha.1",
-    "vivus": "^0.4.3"
+    "svg.js": "^2.6.4"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
     "node-sass": "^4.7.2",
     "typescript": "^2.7.2"
   }

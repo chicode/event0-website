@@ -114,11 +114,13 @@ html, body {
 		position: absolute;
 		background: $white;
 		height: 200px;
-		width: 120%;
 		border-radius: 100%;
 		bottom: 0;
-		left: -10%;
 		transform: translateY(100%);
+
+		// set by sun.ts
+		// width: 120%;
+		// left: -10%;
 	}
 }
 
