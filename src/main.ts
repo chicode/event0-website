@@ -1,7 +1,6 @@
 import * as p2 from 'p2'
 import * as matter from 'matter-js'
 import * as SVG from 'svg.js'
-import { Vector } from 'matter-js';
 
 type Vector = [number, number]
 
@@ -60,22 +59,22 @@ class _P2 extends Physics<p2.Body> {
 
 class _Matter extends Physics<matter.Body> {
 	private engine = matter.Engine.create()
-	private render = matter.Render.create({element: document.body, engine: this.engine})
-	constructor() {
-		super()
-		matter.Render.run(this.render)
-	}
+	// private render = matter.Render.create({element: document.body, engine: this.engine})
+	// constructor() {
+	// 	super()
+	// 	matter.Render.run(this.render)
+	// }
 	makeBody({ position, size, ...rest }: BodyInput ): Body {
 		const body =  matter.Bodies.rectangle(
-			position[0], position[1],
+			position[0] + size[0] / 2, position[1] + size[1] / 2,
 			size[0], size[1],
 			{
-				...rest,
+				// ...rest,
 				velocity: { x: 0, y: 0},
 				isStatic: rest.mass === 0,
 			}
 		)
-		matter.Body.setVelocity(body, rest.velocity ? { x: rest.velocity[0], y: rest.velocity[1] } : { x: 0, y: 0 })
+		if (rest.velocity) matter.Body.setVelocity(body, { x: rest.velocity[0], y: rest.velocity[1] })
 		matter.World.add(this.engine.world, body)
 		return this.toBody(body)
 	}
@@ -109,64 +108,76 @@ class _Matter extends Physics<matter.Body> {
 		return thing.label.split(' ').includes(label)
 	}
 	static boundsToSize(bounds): Vector {
-		return [bounds.min.x - bounds.max.x, bounds.min.y - bounds.max.y]
+		return [bounds.max.x - bounds.min.x, bounds.max.y - bounds.min.y]
 	}
 }
 
+function getVelocity(rotation, speed) {
+	return [speed * Math.cos(rotation), speed * Math.sin(rotation)] as Vector
+}
 
 window.onload = () => {
 	const physics = new _Matter()
-	// const ELEM = document.querySelector('.svg') as HTMLElement
-	// const app = SVG(ELEM)
-	// const bodies = app.group()
+	const ELEM = document.querySelector('.svg') as HTMLElement
+	const app = SVG(ELEM)
+	const bodies = app.group()
 
 	const spawnRate = 120
-	const speed = 10
-	const pipeRotations = [Math.PI * .3, 0, Math.PI * .3 + Math.PI]
-	const pipePositions = [[0, 100], [200, 100], [400, 100]]
-	const pipeSizes = [[100, 100], [100, 100], [100, 100]]
-	// const pipeRotations = [0, 0, 0]
-	// const pipes = Array.from(document.querySelectorAll('.pipe')) as HTMLElement[]
-	// const pipePositions: Vector[] = pipes.map(element => [element.offsetLeft, element.offsetTop] as Vector)
-	// const pipePositions: Vector[] = pipes.map(element => [element.offsetLeft, 0] as Vector)
-	// const pipeSizes: Vector[] = pipes.map(element => [element.clientWidth, element.clientHeight] as Vector)
-	const pipeVelocities: Vector[] = pipeRotations.map(rotation => [speed * Math.cos(rotation), speed * Math.sin(rotation)] as Vector)
-	console.log(pipeVelocities)
-	for (let i = 0; i < 3; i++) {
-		const positions: Vector[] = [
-			[pipePositions[i][0], pipePositions[i][1]],
-			[pipePositions[i][0] + pipeSizes[i][0], pipePositions[i][1]],
-		]
-		for (const position of positions) {
-			const body = physics.makeBody({
-				position,
-				size: [0, pipeSizes[i][1]],
-				// angle: pipeRotations[i],
-				mass: 0
-			})
-			// app.rect(1, pipeSizes[i][1]).x(position[0]).y(position[1]).rotate(pipeRotations[i] * 180 / Math.PI).id(body.id)
-		}
-	}
+	const speed = 15
+	const pipeRotations = [Math.PI * .25, Math.PI * .5, -Math.PI * .25 + Math.PI]
+	const rotationDeviation = Math.PI * .03
+	const pipes = Array.from(document.querySelectorAll('.main .pipe .shaft')) as HTMLElement[]
+	const pipePositions: Vector[] = [
+		[pipes[0].getBoundingClientRect().left + pipes[1].offsetWidth / 2, 0],
+		[pipes[1].getBoundingClientRect().left + pipes[1].offsetWidth / 2, 0],
+		[pipes[2].getBoundingClientRect().left + pipes[2].getBoundingClientRect().width - pipes[1].offsetWidth / 2, 0],
+	]
+
+	const tube = document.querySelector('.main .tube') as HTMLElement
+	const border = 30
+	physics.makeBody({
+		position: [tube.offsetLeft, tube.offsetTop],
+		size: [border, tube.offsetHeight],
+		mass: 0,
+	})
+	physics.makeBody({
+		position: [tube.offsetLeft + tube.offsetWidth - border, tube.offsetTop],
+		size: [border, tube.offsetHeight],
+		mass: 0,
+	})
+	physics.makeBody({
+		position: [tube.offsetLeft, tube.offsetTop + tube.offsetHeight - border],
+		size: [tube.offsetWidth, border + 50],
+		mass: 0,
+	})
 
 	function randRange(range) {
 		return Math.floor(Math.random() * range)
 	}
 
 	let step = 0
+	// let i = 0
 	function update(dt) {
 		if (step % spawnRate === 0) {
-			const i = randRange(3)
+			const i = randRange(3);
+			const rotation = pipeRotations[i] - rotationDeviation// + Math.random() * rotationDeviation * 2
 			const body = physics.makeBody({
 				position: pipePositions[i],
-				size: pipeSizes[i],
+				// size: pipeSizes[i],
+				size: [10, 10],
 				angle: pipeRotations[i],
 				mass: 10,
-				velocity: pipeVelocities[i]
+				velocity: getVelocity(rotation, speed)
 			})
-			// bodies.rect(10, 10).id(body.id)
+			// i++
+			// if (i === 3) i = 0
+			bodies.rect(10, 10).id(body.id)
 		}
 		for (const body of physics.getBodies()) {
-			// SVG.get(body.id.toString()).x(body.position[0]).y(body.position[1])
+			const svg = SVG.get(body.id.toString())
+			if (svg) {
+				svg.cx(body.position[0]).cy(body.position[1])
+			}
 		}
 
 		physics.update()

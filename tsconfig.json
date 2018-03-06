@@ -2,11 +2,7 @@
 	"compilerOptions": {
 		"target": "es2017",
 		"moduleResolution": "node",
-		"allowJs": true
 	},
-	"include": [
-		"./*.ts"
-	],
 	"exclude": [
 		"node_modules"
 	]
