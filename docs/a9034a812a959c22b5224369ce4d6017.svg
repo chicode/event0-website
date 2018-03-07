@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="24"
@@ -18,7 +19,7 @@
    class="feather feather-smartphone"
    version="1.1"
    id="svg6"
-   sodipodi:docname="smartphone.svg"
+   sodipodi:docname="smarthpone-color.svg"
    inkscape:version="0.92.2 (unknown)">
   <metadata
      id="metadata12">
@@ -28,11 +29,34 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs10" />
+     id="defs10">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient820">
+      <stop
+         style="stop-color:#fd7171;stop-opacity:1"
+         offset="0"
+         id="stop816" />
+      <stop
+         style="stop-color:#aaccff;stop-opacity:0.99215686"
+         offset="1"
+         id="stop818" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient820"
+       id="linearGradient822"
+       x1="5.4279623"
+       y1="4.9783039"
+       x2="29.52866"
+       y2="20.750256"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -46,13 +70,14 @@
      inkscape:window-height="1053"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="6.9532167"
-     inkscape:cx="35.399884"
-     inkscape:cy="-28.86242"
+     inkscape:zoom="13.906433"
+     inkscape:cx="22.953681"
+     inkscape:cy="11.614087"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     showguides="true" />
   <rect
      x="1.1355932"
      y="0.98305082"
@@ -60,7 +85,8 @@
      height="20"
      rx="2"
      ry="2"
-     id="rect2" />
+     id="rect2"
+     style="fill-opacity:1;fill:url(#linearGradient822)" />
   <line
      x1="8.1355934"
      y1="16.983051"

@@ -200,11 +200,14 @@ html, body {
 			height: 300px;
 		}
 		.seperator {
+			width: 110%;
+			left: -5%;
 			background: $dark-grey;
 			text-align: center;
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			position: relative;
 		}
 		.awards {
 			// height: 300px;

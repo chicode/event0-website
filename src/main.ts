@@ -1,6 +1,8 @@
 import * as p2 from 'p2'
 import * as matter from 'matter-js'
 import * as SVG from 'svg.js'
+const img = [require('./img/console.svg'),require('./img/smartphone.svg'), require('./img/sidebar.svg')]
+const imgColor = [require('./img/console-color.svg'), require('./img/smartphone-color.svg'), require('./img/sidebar-color.svg')]
 
 type Vector = [number, number]
 
@@ -94,6 +96,14 @@ class _Matter extends Physics<matter.Body> {
 	getBodies(): Body[] {
 		return _Matter.scrape(this.engine.world).map(body => this.toBody(body))
 	}
+	deleteOne() {
+		for (let body of _Matter.scrape(this.engine.world)) {
+			if (!body.isStatic) {
+				matter.Composite.remove(this.engine.world, body, true)
+				return body.id
+			}
+		}
+	}
 	static scrape(rootComposite: matter.Composite) {
 		const bodies = []
 		for (const composite of rootComposite.composites) {
@@ -122,7 +132,7 @@ window.onload = () => {
 	const app = SVG(ELEM)
 	const bodies = app.group()
 
-	const spawnRate = 120
+	const spawnRate = 60
 	const speed = 15
 	const pipeRotations = [Math.PI * .25, Math.PI * .5, -Math.PI * .25 + Math.PI]
 	const rotationDeviation = Math.PI * .03
@@ -132,6 +142,8 @@ window.onload = () => {
 		[pipes[1].getBoundingClientRect().left + pipes[1].offsetWidth / 2, 0],
 		[pipes[2].getBoundingClientRect().left + pipes[2].getBoundingClientRect().width - pipes[1].offsetWidth / 2, 0],
 	]
+	const sizes = [[1, .4], [.8, .8], [.7, .9]]
+	const size = 70
 
 	const tube = document.querySelector('.main .tube') as HTMLElement
 	const border = 30
@@ -150,34 +162,43 @@ window.onload = () => {
 		size: [tube.offsetWidth, border + 50],
 		mass: 0,
 	})
+	const help = document.querySelector('.main .help') as HTMLElement
 
 	function randRange(range) {
 		return Math.floor(Math.random() * range)
 	}
+	const imageIds = {}
 
 	let step = 0
 	// let i = 0
 	function update(dt) {
 		if (step % spawnRate === 0) {
 			const i = randRange(3);
-			const rotation = pipeRotations[i] - rotationDeviation// + Math.random() * rotationDeviation * 2
+			const rotation = pipeRotations[i] - rotationDeviation + Math.random() * rotationDeviation * 2
 			const body = physics.makeBody({
 				position: pipePositions[i],
 				// size: pipeSizes[i],
-				size: [10, 10],
+				size: [sizes[i][0] * size, sizes[i][1] * size],
 				angle: pipeRotations[i],
 				mass: 10,
 				velocity: getVelocity(rotation, speed)
 			})
 			// i++
 			// if (i === 3) i = 0
-			bodies.rect(10, 10).id(body.id)
+			bodies.image(img[i], size).id(body.id).addClass(i.toString())
+			imageIds[body.id] = i
 		}
 		for (const body of physics.getBodies()) {
-			const svg = SVG.get(body.id.toString())
+			const svg = SVG.get(body.id.toString()) as SVG.Image
 			if (svg) {
 				svg.cx(body.position[0]).cy(body.position[1])
+				if (body.position[1] > help.offsetTop + help.clientHeight / 2) {
+					svg.load(imgColor[imageIds[body.id]])
+				}
 			}
+		}
+		if (physics.getBodies().length - 3 > 5) {
+			SVG.get(physics.deleteOne()).remove()
 		}
 
 		physics.update()
