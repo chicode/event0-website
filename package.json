@@ -4,15 +4,13 @@
     "build": "parcel build src/index.html -d docs --public-url ./"
   },
   "dependencies": {
-    "@types/matter-js": "^0.10.0",
-    "@types/p2": "^0.7.31",
-    "@types/svg.js": "^2.3.1",
-    "matter-js": "^0.14.1",
-    "p2": "^0.7.1",
     "svg.js": "^2.6.4"
   },
   "devDependencies": {
-    "node-sass": "^4.7.2",
-    "typescript": "^2.7.2"
+    "babel-core": "^6.26.0",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2"
   }
 }

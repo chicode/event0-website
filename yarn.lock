@@ -2,31 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/matter-js@^0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@types/matter-js/-/matter-js-0.10.0.tgz#b533b537209577e5e4abed74c63c86b575568fba"
-
-"@types/p2@^0.7.31":
-  version "0.7.31"
-  resolved "https://registry.yarnpkg.com/@types/p2/-/p2-0.7.31.tgz#2ddc42624c68c18ef862fc7233b9dae636c8d9bb"
-
-"@types/paper@^0.9.14":
-  version "0.9.14"
-  resolved "https://registry.yarnpkg.com/@types/paper/-/paper-0.9.14.tgz#167ad65feba4f20a3dd5d84780229e4aec6257c5"
-
-"@types/svg.js@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@types/svg.js/-/svg.js-2.3.1.tgz#4f8dd1fa1030a366259888efd0fedbb897764ab4"
-  dependencies:
-    svg.js "*"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
-
-acorn@^5.4.1:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.4.1.tgz#fdc58d9d17f4a4e98d102ded826a9b9759125102"
 
 ajv@^5.1.0:
   version "5.5.2"
@@ -254,9 +232,19 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-dynamic-import-node@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-dynamic-import-node/-/babel-plugin-dynamic-import-node-1.2.0.tgz#f91631e703e0595e47d4beafbb088576c87fbeee"
+  dependencies:
+    babel-plugin-syntax-dynamic-import "^6.18.0"
+
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
+
+babel-plugin-syntax-dynamic-import@^6.18.0:
+  version "6.18.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz#8d6a26229c83745a9982a441051572caa179b1da"
 
 babel-plugin-syntax-exponentiation-operator@^6.8.0:
   version "6.13.0"
@@ -622,8 +610,8 @@ camelcase@^3.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
 caniuse-lite@^1.0.30000792:
-  version "1.0.30000810"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000810.tgz#47585fffce0e9f3593a6feea4673b945424351d9"
+  version "1.0.30000813"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000813.tgz#7b25e27fdfb8d133f3c932b01f77452140fcc6c9"
 
 caseless@~0.11.0:
   version "0.11.0"
@@ -751,18 +739,14 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
 
 electron-to-chromium@^1.3.30:
-  version "1.3.33"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.33.tgz#bf00703d62a7c65238136578c352d6c5c042a545"
+  version "1.3.37"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.37.tgz#4a92734e0044c8cf0b1553be57eae21a4c6e5fab"
 
 error-ex@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
   dependencies:
     is-arrayish "^0.2.1"
-
-es6-tween@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/es6-tween/-/es6-tween-5.1.0.tgz#0a694a4047bfcce32b7df4f2610f8d8e8b804fba"
 
 escape-string-regexp@^1.0.2:
   version "1.0.5"
@@ -1191,10 +1175,6 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
-matter-js@^0.14.1:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/matter-js/-/matter-js-0.14.1.tgz#71d967f2de858b1616bfccc1002ab38aab9e350a"
-
 meow@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
@@ -1353,16 +1333,6 @@ osenv@0:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-p2@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/p2/-/p2-0.7.1.tgz#25f2474d9bc3a6d3140a1da26a67c9e118ac9543"
-  dependencies:
-    poly-decomp "0.1.1"
-
-paper@^0.11.5:
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/paper/-/paper-0.11.5.tgz#d662de67bce8218c287bfe17586d099d2cc48040"
-
 parse-json@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
@@ -1404,10 +1374,6 @@ pinkie-promise@^2.0.0:
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
-
-poly-decomp@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/poly-decomp/-/poly-decomp-0.1.1.tgz#9f68c4fa558663791c9ba4c2df7283f3096c23c9"
 
 private@^0.1.6, private@^0.1.7:
   version "0.1.8"
@@ -1715,15 +1681,9 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-svg.js@*, svg.js@^2.1.1, svg.js@^2.6.4:
+svg.js@^2.6.4:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/svg.js/-/svg.js-2.6.4.tgz#034085b13391c6fcca1a0185a34dbea6c3e78dc3"
-
-svg.pathmorphing.js@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/svg.pathmorphing.js/-/svg.pathmorphing.js-0.1.1.tgz#ce00f0e77bdc89affcf1d7fb425b5ba8c7a00093"
-  dependencies:
-    svg.js "^2.1.1"
 
 tar@^2.0.0:
   version "2.2.1"
@@ -1771,14 +1731,6 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
-two.js@^0.7.0-alpha.1:
-  version "0.7.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/two.js/-/two.js-0.7.0-alpha.1.tgz#85a45ec22fd3e8d276796e0197e587719200a598"
-
-typescript@^2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
-
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -1801,10 +1753,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-vivus@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/vivus/-/vivus-0.4.3.tgz#d7cd1b8b9053756b21cdc5731f2308510c5f0557"
 
 which-module@^1.0.0:
   version "1.0.0"
