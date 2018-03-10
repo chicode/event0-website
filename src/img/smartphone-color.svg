@@ -8,19 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
+   width="16"
+   height="22"
+   viewBox="0 0 16 22"
    class="feather feather-smartphone"
    version="1.1"
    id="svg6"
-   sodipodi:docname="smarthpone-color.svg"
-   inkscape:version="0.92.2 (unknown)">
+   sodipodi:docname="smartphone-color.svg"
+   inkscape:version="0.92.2 (unknown)"
+   style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -29,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +51,8 @@
        y1="4.9783039"
        x2="29.52866"
        y2="20.750256"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.13559318,0.01694918)" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -71,26 +68,30 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="13.906433"
-     inkscape:cx="22.953681"
-     inkscape:cy="11.614087"
+     inkscape:cx="9.2991646"
+     inkscape:cy="9.3095012"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg6"
-     showguides="true" />
+     showguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <rect
-     x="1.1355932"
-     y="0.98305082"
+     x="1"
+     y="1"
      width="14"
      height="20"
      rx="2"
      ry="2"
      id="rect2"
-     style="fill-opacity:1;fill:url(#linearGradient822)" />
+     style="fill:url(#linearGradient822);fill-opacity:1" />
   <line
-     x1="8.1355934"
-     y1="16.983051"
-     x2="8.1355934"
-     y2="16.983051"
+     x1="8"
+     y1="17"
+     x2="8"
+     y2="17"
      id="line4" />
 </svg>

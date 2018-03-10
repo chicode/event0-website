@@ -58,34 +58,49 @@ function updateSun() {
 
 const ELEM = document.querySelector('.svg')
 const app = SVG(ELEM)
-for (let source of ['./img/console.svg', './img/smartphone.svg', './img/sidebar.svg']) {
-	console.log(import(source).then(data => console.log(data)))
-}
-const img = Promise.all(['./img/console.svg', './img/smartphone.svg', './img/sidebar.svg'].map(source => require(source)))
-const imgColor = Promise.all(['./img/console-color.svg', './img/smartphone-color.svg', './img/sidebar-color.svg'].map(source => import(source)))
+const img = [
+	require('./img/console.svg'), require('./img/smartphone.svg'), require('./img/sidebar.svg')
+]
+const imgColor = [
+	require('./img/console-color.svg'), require('./img/smartphone-color.svg'), require('./img/sidebar-color.svg')
+]
 
 const spawnRate = 60
-const size = 10
-const tubes = Array.from(document.querySelectorAll('.main .tube .end'))
+const speed = 1000 * 3
+const pipeElements = Array.from(document.querySelectorAll('.main .pipe .end'))
+const size = pipeElements[0].offsetHeight
+const transformer = document.querySelector('.main .help')
 const end = document.querySelector('.main .awards')
-const items = tubes.map((tube, i) =>
-	app
+const items = []
+function createItem(i) {
+	return app
 		.image(img[i], size)
-		.cx(tube.offsetLeft + tube.offsetWidth / 2)
-		.cy(tube.offsetTop + tube.offsetHeight / 2)
+		.cx(pipeElements[i].offsetLeft + pipeElements[i].offsetWidth / 2)
+		.cy(pipeElements[i].offsetTop + pipeElements[i].offsetHeight / 2)
 		.addClass(i)
-		.animate(3)
-		.pause()
+		.animate(speed)
 		.y(end.offsetTop)
-)
-function updatePipes() {
-	items.push(items[randRange(3)].clone().play())
+		.during(function() {
+			if (this.y() >= transformer.offsetTop) {
+				this.load(imgColor[this.attr('class')])
+			}
+		})
+		.after(function() {
+			this.remove()
+		})
+}
+function updatePipes(frame) {
+	if (frame % spawnRate === 0) {
+		items.push(createItem(randRange(3)))
+	}
 }
 
+let frame = 0
 function update() {
-	updateSun()
-	updatePipes()
+	updateSun(frame)
+	updatePipes(frame)
 
+	frame++
 	window.requestAnimationFrame(update)
 }
 window.requestAnimationFrame(update)
