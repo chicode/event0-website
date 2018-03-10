@@ -71,10 +71,10 @@ const pipeElements = Array.from(document.querySelectorAll('.main .pipe .end'))
 const size = pipeElements[0].offsetHeight
 const transformer = document.querySelector('.main .help')
 const end = document.querySelector('.main .awards')
-const items = []
+let items = []
 function createItem(i) {
-	return app
-		.image(img[i], size)
+	const item = app.image(img[i], size)
+	item
 		.cx(pipeElements[i].offsetLeft + pipeElements[i].offsetWidth / 2)
 		.cy(pipeElements[i].offsetTop + pipeElements[i].offsetHeight / 2)
 		.addClass(i)
@@ -86,8 +86,10 @@ function createItem(i) {
 			}
 		})
 		.after(function() {
+			items = items.filter(item => item !== this)
 			this.remove()
 		})
+	return item
 }
 function updatePipes(frame) {
 	if (frame % spawnRate === 0) {

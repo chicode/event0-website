@@ -278,7 +278,7 @@ html, body {
 	.tile {
 		background: $grey;
 		border-radius: $border-radius;
-		width: 30%;
+		width: 30vw;
 		height: 300px;
 		margin: 15px;
 	}
@@ -286,7 +286,7 @@ html, body {
 
 .about {
 	p {
-		width: 70%;
+		width: 70vw;
 		margin: auto;
 		text-align: justify;
 	}
