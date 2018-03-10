@@ -7,6 +7,8 @@ $orange-red: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
 $border-radius: 5px;
 $blue: rgb(55, 66, 80);
 $width: 70vw;
+$primary-font: Inconsolata;
+$title-font: Source Code Pro;
 
 @mixin absolute() {
 	position: absolute;
@@ -22,7 +24,8 @@ $width: 70vw;
 html, body {
 	height: 100%;
 	margin: 0;
-	font-family: Source Code Pro;
+	// font-family: Source Code Pro;
+	font-family: $primary-font;
 	font-size: 1.5rem;
 
 	display: flex;
@@ -39,6 +42,7 @@ html, body {
 	.h1, .h2, .h3, .h4, .h5, .h6 {
 		text-align: center;
 		font-weight: bold;
+		font-family: $title-font;
 	}
 	.h1 {
 		font-size: 3rem;
@@ -271,6 +275,7 @@ html, body {
 	.time {
 		font-weight: 600;
 		margin-right: 30px;
+		font-family: $title-font;
 	}
 }
 .faq {
@@ -286,8 +291,13 @@ html, body {
 		background: $grey;
 		border-radius: $border-radius;
 		width: 30vw;
-		height: 300px;
+		// height: 300px;
 		margin: 15px;
+		padding: 30px;
+
+		h3 {
+			margin-top: 0;
+		}
 	}
 }
 
