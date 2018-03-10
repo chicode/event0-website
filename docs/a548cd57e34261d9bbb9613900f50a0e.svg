@@ -7,19 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
+   width="20"
+   height="20.028486"
+   viewBox="0 0 20 20.028486"
    class="feather feather-sidebar"
    version="1.1"
    id="svg6"
    sodipodi:docname="sidebar.svg"
-   inkscape:version="0.92.2 (unknown)">
+   inkscape:version="0.92.2 (unknown)"
+   style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -48,24 +44,28 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="9.8333333"
-     inkscape:cx="9.0273863"
-     inkscape:cy="15.668457"
+     inkscape:cx="-10.464139"
+     inkscape:cy="11.648802"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <rect
-     x="1.1694915"
-     y="0.96610171"
+     x="1"
+     y="1.0142425"
      width="18"
      height="18"
      rx="2"
      ry="2"
      id="rect2" />
   <line
-     x1="7.1694913"
-     y1="0.96610171"
-     x2="7.1694913"
-     y2="18.966103"
+     x1="7"
+     y1="1.0142425"
+     x2="7"
+     y2="19.014244"
      id="line4" />
 </svg>

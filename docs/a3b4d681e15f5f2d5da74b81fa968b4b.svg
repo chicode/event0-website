@@ -8,19 +8,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
+   width="20"
+   height="20.028486"
+   viewBox="0 0 20 20.028486"
    class="feather feather-sidebar"
    version="1.1"
    id="svg6"
-   sodipodi:docname="sidebar.svg"
-   inkscape:version="0.92.2 (unknown)">
+   sodipodi:docname="sidebar-color.svg"
+   inkscape:version="0.92.2 (unknown)"
+   style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -64,10 +60,11 @@
        xlink:href="#linearGradient4535"
        id="linearGradient4537"
        x1="7.1694908"
-       y1="9.9661017"
+       y1="9.9661016"
        x2="18.809944"
        y2="4.6448236"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.16949153,0.04814078)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4543"
@@ -76,7 +73,8 @@
        y1="-12.17031"
        x2="13.159377"
        y2="-12.17031"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.16949153,0.04814078)" />
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -92,16 +90,20 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="2.4583333"
-     inkscape:cx="-118.02854"
-     inkscape:cy="50.136011"
+     inkscape:cx="-194.67261"
+     inkscape:cy="44.489237"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <rect
      style="fill:url(#linearGradient4537);fill-opacity:1;stroke:none;stroke-width:1.6329931"
-     x="7.1694908"
-     y="0.96610171"
+     x="6.999999"
+     y="1.0142425"
      width="12"
      height="18"
      rx="0"
@@ -113,21 +115,21 @@
      rx="0"
      height="18"
      width="6"
-     y="0.96610171"
-     x="1.1694915"
+     y="1.0142425"
+     x="1"
      style="fill:url(#linearGradient4545);fill-opacity:1;stroke:none;stroke-width:1.15470052" />
   <rect
-     x="1.1694915"
-     y="0.96610171"
+     x="1"
+     y="1.0142425"
      width="18"
      height="18"
      rx="2"
      ry="2"
      id="rect2" />
   <line
-     x1="7.1694913"
-     y1="0.96610171"
-     x2="7.1694913"
-     y2="18.966103"
+     x1="7"
+     y1="1.0142425"
+     x2="7"
+     y2="19.014244"
      id="line4" />
 </svg>

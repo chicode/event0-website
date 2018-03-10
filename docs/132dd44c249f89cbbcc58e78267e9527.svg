@@ -7,19 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24"
-   fill="none"
-   stroke="currentColor"
-   stroke-width="2"
-   stroke-linecap="round"
-   stroke-linejoin="round"
+   width="16"
+   height="22"
+   viewBox="0 0 16 22"
    class="feather feather-smartphone"
    version="1.1"
    id="svg6"
    sodipodi:docname="smartphone.svg"
-   inkscape:version="0.92.2 (unknown)">
+   inkscape:version="0.92.2 (unknown)"
+   style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -28,6 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -47,24 +44,28 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="6.9532167"
-     inkscape:cx="35.399884"
-     inkscape:cy="-28.86242"
+     inkscape:cx="8.2264452"
+     inkscape:cy="-31.454642"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
+     inkscape:current-layer="svg6"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <rect
-     x="1.1355932"
-     y="0.98305082"
+     x="1"
+     y="1"
      width="14"
      height="20"
      rx="2"
      ry="2"
      id="rect2" />
   <line
-     x1="8.1355934"
-     y1="16.983051"
-     x2="8.1355934"
-     y2="16.983051"
+     x1="8"
+     y1="17"
+     x2="8"
+     y2="17"
      id="line4" />
 </svg>
