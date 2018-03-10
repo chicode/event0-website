@@ -6,14 +6,15 @@ const appSun = SVG(svgElement)
 appSun.style('position', 'absolute')
 
 const sunSize = 150
+const red = [255, 157, 157]
+const blue = [189, 219, 255]
 const sunColor = 'white'
 const moonColor = 'white'
 const sun = appSun.circle(sunSize).fill(sunColor).y(70)
 
 const angle = 50
 
-// const colorDay = [255, 157, 157] // red
-const colorDay = [189, 219, 255] // blue
+const colorDay = blue.slice()
 const colorNight = [0, 0, 0]
 header.style.background = rgb(colorDay)
 
@@ -102,6 +103,34 @@ function updatePipes(frame) {
 	}
 }
 
+const sun2Element = document.querySelector('.schedule .svg')
+const sun2App = SVG(sun2Element)
+const rails = document.querySelector('.schedule .timestrip')
+const sun2duration = 8 * 1000
+rails.style.marginRight = sunSize / 2 + 80 + 'px'
+console.log(rails.offsetLeft, rails.offsetTop, rails.offsetWidth)
+const sun2 = sun2App
+	.circle(sunSize)
+	.cx(rails.getBoundingClientRect().left)
+	.fill(rgb(red))
+
+function animate(object) {
+	object
+		.animate(sun2duration, '<')
+		.y((rails.offsetHeight - sunSize) / 2)
+		.fill('rgb(255, 255, 255)')
+		.stroke({ width: 10, color: 'black' })
+		.animate(sun2duration, '>')
+		.fill(rgb(red))
+		.stroke({ width: 0 })
+		.y(rails.offsetHeight - sunSize)
+		.after(function() {
+			this.y(0)
+			animate(this)
+		})
+}
+
+animate(sun2)
 let frame = 0
 function update() {
 	updateSun(frame)
