@@ -7,14 +7,15 @@ appSun.style('position', 'absolute')
 
 const sunSize = 150
 const sunColor = 'white'
-const moonColor = 'yellow'
+const moonColor = 'white'
 const sun = appSun.circle(sunSize).fill(sunColor).y(70)
 
 const angle = 50
 
-const colorDay = [255, 163, 160]
+// const colorDay = [255, 157, 157] // red
+const colorDay = [189, 219, 255] // blue
 const colorNight = [0, 0, 0]
-// const colorNight = [55, 66, 80]
+header.style.background = rgb(colorDay)
 
 let rotateX, rotateY, rotation, rotateSpeed, night, transitioning, color, slopes
 function resize() {
@@ -38,6 +39,10 @@ function resize() {
 window.onresize = resize
 resize()
 
+function rgb(color) {
+	return `rgb(${color.map(color => Math.floor(color)).join(',')})`
+}
+
 function updateSun() {
 	if (rotation >= angle) {
 		rotation = -angle
@@ -49,7 +54,7 @@ function updateSun() {
 	}
 	if (transitioning) {
 		color = color.map((num, i) => num += slopes[i] * (night ? 1 : -1))
-		header.style.background = `rgb(${color.map(color => Math.floor(color)).join(',')})`
+		header.style.background = rgb(color)
 	}
 
 	sun.rotate(rotation, rotateX, rotateY)
