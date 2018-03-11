@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
@@ -25,35 +24,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs10">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient820">
-      <stop
-         style="stop-color:#fd7171;stop-opacity:1"
-         offset="0"
-         id="stop816" />
-      <stop
-         style="stop-color:#aaccff;stop-opacity:0.99215686"
-         offset="1"
-         id="stop818" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient820"
-       id="linearGradient822"
-       x1="5.4279623"
-       y1="4.9783039"
-       x2="29.52866"
-       y2="20.750256"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-0.13559318,0.01694918)" />
-  </defs>
+     id="defs10" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -68,8 +44,8 @@
      id="namedview8"
      showgrid="false"
      inkscape:zoom="13.906433"
-     inkscape:cx="9.2991646"
-     inkscape:cy="9.3095012"
+     inkscape:cx="-4.2197586"
+     inkscape:cy="9.0218645"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -87,7 +63,7 @@
      rx="2"
      ry="2"
      id="rect2"
-     style="fill:url(#linearGradient822);fill-opacity:1" />
+     style="fill:#ff6d68;fill-opacity:1" />
   <line
      x1="8"
      y1="17"

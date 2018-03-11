@@ -2,11 +2,13 @@ $white: white;
 $grey: #EBEBEB;
 $dark-grey: #D5D5D5;
 $orange: #FF9D9D;
-$red: rgb(255, 163, 160);
+$purple: #6A5079;
+$red: #ff6d68;
 $orange-red: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
 $border-radius: 5px;
 $blue: rgb(55, 66, 80);
-$width: 70vw;
+$width: 60vw;
+$width-2: 80vw;
 $primary-font: Source Code Pro;
 $title-font: Source Code Pro;
 
@@ -24,12 +26,16 @@ $title-font: Source Code Pro;
 html, body {
 	height: 100%;
 	margin: 0;
-	// font-family: Source Code Pro;
 	font-family: $primary-font;
 	font-size: 1.5rem;
 
 	display: flex;
 	flex-direction: column;
+
+	* {
+		-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+	}
 
 	p {
 		margin: 0;
@@ -37,6 +43,10 @@ html, body {
 
 	h2 {
 		margin-top: 200px;
+		margin-bottom: 60px;
+		@media (max-width: 500px) {
+			margin-top: 100px;
+		}
 	}
 
 	.h1, .h2, .h3, .h4, .h5, .h6 {
@@ -64,9 +74,38 @@ html, body {
 		font-size: .6rem;
 	}
 
-	.row {
+	@media (max-width: 1200px) {
+		p {
+			font-size: 1rem;
+		}
+	}
+	@media (max-width: 500px) {
+		p {
+			font-size: .8rem;
+		}
+
+		.h1 {
+			font-size: 2rem;
+		}
+		.h2 {
+			font-size: 1.2rem;
+		}
+	}
+	@media (max-width: 350px) {
+		.h1 {
+			font-size: 1.5rem;
+		}
+		.h2 {
+			font-size: .8rem;
+		}
+	}
+
+	.row, .column {
 		display: flex;
 		justify-content: space-around;
+	}
+	.column {
+		flex-direction: column;
 	}
 	img {
 		display: block;
@@ -76,7 +115,7 @@ html, body {
 	button {
 		outline: 0;
 		border: 0;
-		background: $orange;
+		background: $red;
 		border-radius: $border-radius;
 		font-weight: bold;
 		margin: auto;
@@ -84,6 +123,7 @@ html, body {
 		padding: 10px;
 		font-size: 1.5rem;
 		transition-duration: .3s;
+		font-family: $title-font;
 		// box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	}
 	button:hover {
@@ -112,6 +152,12 @@ html, body {
 .header {
 	position: relative;
 	height: 600px;
+	@media (max-width: 500px) {
+		height: 500px;
+	}
+	@media (max-width: 300px) {
+		height: 400px;
+	}
 	p {
 		color: $white;
 		padding-top: 100px;
@@ -122,6 +168,9 @@ html, body {
 		right: 0;
 		left: 0;
 		bottom: 0;
+		@media (max-width: 600px) {
+			width: 25vw;
+		}
 	}
 	.banner {
 		position: absolute;
@@ -148,6 +197,15 @@ html, body {
 	img {
 		padding-top: 40px;
 		padding-bottom: 50px;
+		@media (max-width: 600px) {
+			width: 60vw;
+			padding-top: 20px;
+		}
+	}
+	button {
+		@media (max-width: 600px) {
+			font-size: 1rem;
+		}
 	}
 	.deadline {
 		margin-top: 10px;
@@ -179,6 +237,13 @@ html, body {
 			background: $grey;
 			width: 70px;
 			height: 100px;
+			@media (max-width: 500px) {
+				width: 60px;
+			height: 80px;
+			}
+			@media (max-width: 400px) {
+				width: 40px;
+			}
 		}
 		.end {
 			background: $dark-grey;
@@ -186,6 +251,14 @@ html, body {
 			width: 120px;
 			border-radius: $border-radius;
 			margin: auto;
+			@media (max-width: 500px) {
+				width: 100px;
+				height: 50px;
+			}
+			@media (max-width: 400px) {
+				width: 70px;
+				height: 40px;
+			}
 		}
 		.label {
 			margin-top: 50px;
@@ -213,6 +286,9 @@ html, body {
 		margin: auto;
 		padding: 20px;
 		border-radius: $border-radius;
+		@media (max-width: 400px) {
+			width: 90vw;
+		}
 	}
 	.awards-group {
 		margin-top: 70px;
@@ -233,6 +309,9 @@ html, body {
 			img {
 				height: 100px;
 				margin: auto;
+				@media (max-width: 500px) {
+					height: 50px;
+				}
 			}
 		}
 		.big-award {
@@ -244,6 +323,9 @@ html, body {
 		.label {
 			margin: 0 auto;
 			margin-top: 20px;
+			@media (max-width: 500px) {
+				font-size: .5rem;
+			}
 		}
 	}
 }
@@ -254,20 +336,41 @@ html, body {
 	}
 	.schedule {
 		width: $width;
+		@media (max-width: 1300px) {
+			width: $width-2;
+		}
 		margin: auto;
 		justify-content: unset;
 	}
-	// .timestrip {
-	// 	// background: linear-gradient(to bottom, $orange 0%, $blue 50%, $orange 100%);
-	// 	// height: 100%;
-	// 	// width: 60px;
-	// 	// border-radius: $border-radius;
-	// 	margin-right: 6vw;
-	// 	width: 10px;
-	// 	background: white;
-	// }
+	.sun {
+		margin-left: 80px;
+		@media (max-width: 800px) {
+			margin-left: 40px;
+		}
+		@media (max-width: 500px) {
+			margin-left: 0;
+		}
+	}
+	.timestrip {
+		// background: linear-gradient(to bottom, $orange 0%, $blue 50%, $orange 100%);
+		// height: 100%;
+		// width: 60px;
+		// border-radius: $border-radius;
+		// margin-right: 6vw;
+		// width: 5px;
+		border: 3px solid black;
+		@media (max-width: 800px) {
+			border-width: 2px;
+		}
+		@media (max-width: 500px) {
+			display: none;
+		}
+	}
 	.times * {
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+		@media (max-width: 500px) {
+			margin-bottom: 5px;
+		}
 	}
 	& .times :last-child {
 		margin-bottom: 0;
@@ -282,21 +385,59 @@ html, body {
 	.row {
 		justify-content: center;
 	}
+	.column {
+		justify-content: flex-start;
+	}
 	.tiles {
 		margin: auto;
-		width: 80%;
+		// width: 80%;
 	}
 
 	.tile {
-		background: $grey;
-		border-radius: $border-radius;
-		width: 30vw;
-		// height: 300px;
+		width: 25vw;
 		margin: 15px;
-		padding: 30px;
 
 		h3 {
+			border-top-left-radius: $border-radius;
+			border-top-right-radius: $border-radius;
+		// height: 300px;
+			padding: 30px;
+			padding-bottom: 10px;
 			margin-top: 0;
+			// margin-bottom: 10px;
+			text-align: left;
+			background: $dark-grey;
+			font-size: 1.2rem;
+		}
+		p {
+			border-radius: $border-radius;
+			background: $grey;
+			padding: 30px;
+			font-size: 1rem;
+		}
+		@media (max-width: 1200px) {
+			width: 27vw;
+			margin: 10px;
+			p {
+				font-size: .8rem;
+				padding: 20px;
+				padding-top: 20px;
+			}
+			h3 {
+				padding: 20px;
+				padding-bottom: 10px;
+				font-size: .9rem;
+			}
+		}
+	}
+	@media (max-width: 900px) {
+		.row {
+			flex-direction: column;
+			.tile {
+				width: 90vw;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 	}
 }
@@ -304,6 +445,9 @@ html, body {
 .about {
 	p {
 		width: $width;
+		@media (max-width: 1300px) {
+			width: $width-2;
+		}
 		margin: auto;
 		text-align: justify;
 	}
@@ -312,6 +456,9 @@ html, body {
 		margin-top: 80px;
 		margin-bottom: 150px;
 		width: 400px;
+		@media (max-width: 600px) {
+			width: 60vw;
+		}
 	}
 }
 

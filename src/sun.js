@@ -5,16 +5,17 @@ const header = document.querySelector('.header .banner')
 const appSun = SVG(svgElement)
 appSun.style('position', 'absolute')
 
-const sunSize = 150
-const red = [255, 157, 157]
+let sunSize = 150
+const red = [255, 109, 104]
 const blue = [189, 219, 255]
+const purple = [106, 80, 121]
 const sunColor = 'white'
 const moonColor = 'white'
 const sun = appSun.circle(sunSize).fill(sunColor).y(70)
 
 const angle = 50
 
-const colorDay = blue.slice()
+const colorDay = purple.slice()
 const colorNight = [0, 0, 0]
 header.style.background = rgb(colorDay)
 
@@ -29,16 +30,32 @@ function resize() {
 	rotateX = header.clientWidth / 2
 	rotateY = header.clientWidth
 	sun.cx(header.clientWidth / 2)
-	rotateSpeed = Math.atan(500 / header.clientWidth)
+	rotateSpeed = .1
 
 	rotation = -angle
 	color = [...colorDay]
 	night = false
 	transitioning = false
 	slopes = colorNight.map((num, i) => (num - colorDay[i]) / (angle * 2 / rotateSpeed))
+	let size = (window.innerWidth - 400) / 9
+	if (size <= 100) {
+		size = 100
+	}
+	sun.size(size)
+
+	if (window.innerWidth < 500) {
+		sun2.stop().fill('none')
+		rails.style.marginRight = 0
+	} else {
+		sun2Size = window.innerWidth / 12.8
+		margin = window.innerWidth / 24
+		sun2
+			.cx(rails.getBoundingClientRect().left)
+			.size(sun2Size)
+		rails.style.marginRight = sun2Size / 2 + margin + "px";
+	}
 }
 window.onresize = resize
-resize()
 
 function rgb(color) {
 	return `rgb(${color.map(color => Math.floor(color)).join(',')})`
@@ -58,7 +75,7 @@ function updateSun() {
 		header.style.background = rgb(color)
 	}
 
-	sun.rotate(rotation, rotateX, rotateY)
+	// sun.rotate(rotation, rotateX, rotateY)
 	rotation += rotateSpeed
 }
 
@@ -107,23 +124,24 @@ const sun2Element = document.querySelector('.schedule .svg')
 const sun2App = SVG(sun2Element)
 const rails = document.querySelector('.schedule .timestrip')
 const sun2duration = 8 * 1000
-rails.style.marginRight = sunSize / 2 + 80 + 'px'
+let sun2Size = window.innerWidth / 12.8
+let margin = window.innerWidth / 24
+
+rails.style.marginRight = sun2Size / 2 + margin + 'px'
 console.log(rails.offsetLeft, rails.offsetTop, rails.offsetWidth)
 const sun2 = sun2App
-	.circle(sunSize)
+	.circle(sun2Size)
 	.cx(rails.getBoundingClientRect().left)
 	.fill(rgb(red))
 
 function animate(object) {
 	object
 		.animate(sun2duration, '<')
-		.y((rails.offsetHeight - sunSize) / 2)
-		.fill('rgb(255, 255, 255)')
-		.stroke({ width: 10, color: 'black' })
+		.y((rails.offsetHeight - sun2Size) / 2)
+		.fill(rgb(purple))
 		.animate(sun2duration, '>')
 		.fill(rgb(red))
-		.stroke({ width: 0 })
-		.y(rails.offsetHeight - sunSize)
+		.y(rails.offsetHeight - sun2Size)
 		.after(function() {
 			this.y(0)
 			animate(this)
@@ -144,3 +162,5 @@ window.requestAnimationFrame(update)
 function randRange(range) {
 	return Math.floor(Math.random() * range)
 }
+
+resize()

@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="20"
@@ -25,57 +24,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs10">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4543">
-      <stop
-         style="stop-color:#75acff;stop-opacity:1;"
-         offset="0"
-         id="stop4539" />
-      <stop
-         style="stop-color:#75ffe1;stop-opacity:1"
-         offset="1"
-         id="stop4541" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4535">
-      <stop
-         style="stop-color:#fd7171;stop-opacity:1;"
-         offset="0"
-         id="stop4531" />
-      <stop
-         style="stop-color:#fea4bf;stop-opacity:1"
-         offset="1"
-         id="stop4533" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4535"
-       id="linearGradient4537"
-       x1="7.1694908"
-       y1="9.9661016"
-       x2="18.809944"
-       y2="4.6448236"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-0.16949153,0.04814078)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4543"
-       id="linearGradient4545"
-       x1="12.87174"
-       y1="-12.17031"
-       x2="13.159377"
-       y2="-12.17031"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-0.16949153,0.04814078)" />
-  </defs>
+     id="defs10" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -89,9 +43,9 @@
      inkscape:window-height="1053"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="2.4583333"
-     inkscape:cx="-194.67261"
-     inkscape:cy="44.489237"
+     inkscape:zoom="22.967287"
+     inkscape:cx="-0.15461979"
+     inkscape:cy="9.4723462"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -101,7 +55,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <rect
-     style="fill:url(#linearGradient4537);fill-opacity:1;stroke:none;stroke-width:1.6329931"
+     style="fill:#6a5079;fill-opacity:1;stroke:none;stroke-width:1.6329931"
      x="6.999999"
      y="1.0142425"
      width="12"
@@ -117,7 +71,7 @@
      width="6"
      y="1.0142425"
      x="1"
-     style="fill:url(#linearGradient4545);fill-opacity:1;stroke:none;stroke-width:1.15470052" />
+     style="fill:#ff6d68;fill-opacity:1;stroke:none;stroke-width:1.15470052" />
   <rect
      x="1"
      y="1.0142425"
