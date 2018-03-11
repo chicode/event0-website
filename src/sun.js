@@ -75,7 +75,7 @@ function updateSun() {
 		header.style.background = rgb(color)
 	}
 
-	// sun.rotate(rotation, rotateX, rotateY)
+	sun.rotate(rotation, rotateX, rotateY)
 	rotation += rotateSpeed
 }
 
