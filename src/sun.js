@@ -55,7 +55,7 @@ function resize() {
 		rails.style.marginRight = sun2Size / 2 + margin + "px";
 	}
 }
-window.onresize = resize
+// window.onresize = resize
 
 function rgb(color) {
 	return `rgb(${color.map(color => Math.floor(color)).join(',')})`
