@@ -1,5 +1,13 @@
 <html lang="en">
 <head>
+	<!--Global site tag(gtag.js) - Google Analytics-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106173544-6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-106173544-6');
+	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -97,6 +105,27 @@
 				</div>
 			</div>
 		</div>
+		<div class="location">
+			<h2 class="h1">location</h2>
+			<div class="background row">
+				<div id="map"></div>
+				<script>
+					function initMap() {
+						var uluru = { lat: 41.8632, lng: -87.6593 };
+						var map = new google.maps.Map(document.getElementById('map'), {
+							zoom: 12,
+							center: uluru
+						});
+						var marker = new google.maps.Marker({
+							position: uluru,
+							map: map,
+							title: 'ChiTech Academy'
+						});
+					}
+				</script>
+				<p class="h3">ChiTech Academy is a CPS charter school located in Little Italy. It is a walking distance from the blue line, as well as the 60, 9, 12, and 18 bus routes. <b>Free parking will also be provided.</b> </p>
+			</div>
+		</div>
 		<div class="faq">
 			<h2 class="h1">faq</h2>
 			<div class="tiles">
@@ -160,7 +189,8 @@
 		<p class="h4">designed with ❤ by <a href="https://github.com/jetmate">Anton</a></p>
 	</div>
 
-	<!-- <script src="main.ts"></script> -->
 	<script src="sun.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiNt7oqLoORJnsrSVybjOQmEmeU8DaqJs&callback=initMap">
+	</script>
 </body>
 </html>

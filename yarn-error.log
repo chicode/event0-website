@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn star
+  /usr/bin/node /bin/yarn build
 
 PATH: 
-  /home/anton/.yarn/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+  /home/anton/.yarn/bin:/home/anton/.bin:/home/anton/.zplug/bin:/home/anton/.yarn/bin:/home/anton/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
   1.5.1
@@ -1855,14 +1855,16 @@ Lockfile:
       yargs-parser "^5.0.0"
 
 Trace: 
-  Error: Command "star" not found. Did you mean "start"?
-      at new MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
-      at /usr/lib/node_modules/yarn/lib/cli.js:87307:17
-      at Generator.next (<anonymous>)
-      at step (/usr/lib/node_modules/yarn/lib/cli.js:98:30)
-      at /usr/lib/node_modules/yarn/lib/cli.js:116:14
-      at new Promise (<anonymous>)
-      at new F (/usr/lib/node_modules/yarn/lib/cli.js:23451:28)
-      at /usr/lib/node_modules/yarn/lib/cli.js:95:12
-      at runCommand (/usr/lib/node_modules/yarn/lib/cli.js:87312:22)
-      at Object.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:87412:14)
+  Error: Command failed.
+  Exit code: 127
+  Command: sh
+  Arguments: -c parcel build src/index.html -d docs --public-url ./
+  Directory: /home/anton/programming/web-dev/event0-website
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:180:13)
+      at maybeClose (internal/child_process.js:936:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)

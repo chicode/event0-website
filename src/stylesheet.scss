@@ -381,6 +381,45 @@ html, body {
 		font-family: $title-font;
 	}
 }
+.location {
+	#map {
+		width: 700px;
+		height: 400px;
+		margin-right: 60px;
+		@media (max-width: 1200px) {
+			width: 100%;
+			margin: auto;
+		}
+	}
+	.background {
+		height: 400px;
+		width: 100vw;
+		background: $purple;
+		padding: 0;
+		@media (max-width: 1200px) {
+			padding: 20px 0;
+			display: block;
+			height: unset;
+		}
+		justify-content: center;
+	}
+	p {
+		font-weight: normal;
+		text-align: justify;
+		align-self: center;
+		background: $purple;
+		color: white;
+		flex-basis: 30%;
+		@media (max-width: 1200px) {
+			padding: 30px 60px;
+		}
+		@media (max-width: 500px) {
+			font-size: .8rem;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+}
 .faq {
 	.row {
 		justify-content: center;
