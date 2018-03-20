@@ -2,7 +2,7 @@ Arguments:
   /usr/bin/node /bin/yarn build
 
 PATH: 
-  /home/anton/.yarn/bin:/home/anton/.bin:/home/anton/.zplug/bin:/home/anton/.yarn/bin:/home/anton/.bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+  /home/anton/.yarn/bin:/home/anton/.bin:/home/anton/.zplug/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
   1.5.1
@@ -1856,7 +1856,7 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 127
+  Exit code: 1
   Command: sh
   Arguments: -c parcel build src/index.html -d docs --public-url ./
   Directory: /home/anton/programming/web-dev/event0-website

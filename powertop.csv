@@ -1,0 +1,542 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;v2.9 ran at Mon Mar 19 18:05:52 2018
+
+Kernel Version;Linux version 4.15.9-1-ARCH
+System Name;Dell Inc.0JHP5H
+CPU Information;4 Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+OS Information;Arch Linux
+
+Target: 1 units/s;System:  304.0 wakeup/s;CPU:  4.2% usage;GPU: 0 ops/s;GFX: 33.7 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description
+100.0%;;Device;Audio codec hwC0D0: Realtek
+  0.4%; 51.5;Process;[PID 27683] /usr/lib/chromium/chromium 
+  0.2%; 39.3;Process;[PID 17892] polybar bottom 
+  0.4%; 20.8;Process;[PID 10354] /usr/lib/xorg-server/Xorg -nolisten tcp :0 vt1 -keeptty -auth /home/anton/.serverauth.10188 
+  0.1%; 16.3;Timer;tick_sched_timer
+  0.4%; 12.9;Process;[PID 3343] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.1%;  9.9;Process;[PID 2258] /opt/spotify/spotify 
+  0.1%;  9.9;Process;[PID 2251] /opt/spotify/spotify 
+  0.1%;  9.9;Process;[PID 10363] i3 -a --restart /run/user/1000/i3/restart-state.10363 
+  0.1%;  9.7;Process;[PID 2229] /opt/spotify/spotify 
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+C2 (pc2); 17.8%
+C3 (pc3); 71.8%
+C6 (pc6);  0.0%
+C7 (pc7);  0.0%
+C8 (pc8);  0.0%
+C9 (pc9);  0.0%
+C10 (pc10);  0.0%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  0.0%
+C6 (cc6);  0.3%
+C7 (cc7); 96.8%
+;Core 1
+C3 (cc3);  0.0%
+C6 (cc6);  0.3%
+C7 (cc7); 95.5%
+;Core 2
+C3 (cc3);  0.0%
+C6 (cc6);  0.7%
+C7 (cc7); 97.3%
+;Core 3
+C3 (cc3);  0.0%
+C6 (cc6);  0.8%
+C7 (cc7); 96.1%
+;GPU 1919894304
+Powered On;  0.5%
+RC6; 99.5%
+RC6p;  0.0%
+RC6pp;  0.0%
+
+CPU;0
+C0 active;  0.7%;
+POLL;  0.0%;   0.0 ms
+C1E;  0.4%;   1.3 ms
+;
+C3;  0.0%;   0.1 ms
+C6;  0.4%;   1.0 ms
+C7s;  0.0%;   0.0 ms
+C8;  7.4%;   3.0 ms
+C9;  0.0%;   0.0 ms
+C10; 89.6%;  18.1 ms
+CPU;1
+C0 active;  0.4%;
+POLL;  0.0%;   0.0 ms
+C1E;  2.9%;   7.9 ms
+;
+C3;  0.0%;   0.3 ms
+C6;  0.3%;   1.3 ms
+C7s;  0.0%;   0.6 ms
+C8;  7.2%;   4.4 ms
+C9;  0.0%;   2.8 ms
+C10; 88.4%;  23.9 ms
+CPU;2
+C0 active;  0.5%;
+POLL;  0.0%;   0.0 ms
+C1E;  0.3%;   1.6 ms
+;
+C3;  0.0%;   0.2 ms
+C6;  0.7%;   1.0 ms
+C7s;  0.0%;   0.0 ms
+C8;  7.4%;   2.8 ms
+C9;  0.0%;   0.0 ms
+C10; 90.1%;  21.7 ms
+CPU;3
+C0 active;  0.4%;
+POLL;  0.0%;   0.0 ms
+C1E;  0.5%;   2.7 ms
+;
+C3;  0.0%;   0.3 ms
+C6;  0.8%;   1.6 ms
+C7s;  0.0%;   2.0 ms
+C8;  6.6%;   2.5 ms
+C9;  0.0%;   0.0 ms
+C10; 89.7%;  20.3 ms
+;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle;
+;
+;
+;
+
+;Core 0
+Idle;
+;Core 1
+Idle;
+;Core 2
+Idle;
+;Core 3
+Idle;
+;
+;
+;
+
+CPU 0
+Average;   878 MHz
+Idle;
+CPU 1
+Average;   914 MHz
+Idle;
+CPU 2
+Average;   829 MHz
+Idle;
+CPU 3
+Average;   830 MHz
+Idle;
+
+;
+;
+;
+;
+;
+;
+;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description
+  4.5 ms/s; 51.5;;; 19.9;Process;[PID 27683] /usr/lib/chromium/chromium 
+  1.6 ms/s; 39.3;;;;Process;[PID 17892] polybar bottom 
+  4.3 ms/s; 20.8;;; 10.0;Process;[PID 10354] /usr/lib/xorg-server/Xorg -nolisten tcp :0 vt1 -keeptty -auth /home/anton/.serverauth.10188 
+665.2 us/s; 16.3;;;;Timer;tick_sched_timer
+  3.5 ms/s; 12.9;;;;Process;[PID 3343] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+606.3 us/s;  9.9;;;;Process;[PID 2258] /opt/spotify/spotify 
+  0.7 ms/s;  9.9;;;;Process;[PID 2251] /opt/spotify/spotify 
+540.9 us/s;  9.9;;;;Process;[PID 10363] i3 -a --restart /run/user/1000/i3/restart-state.10363 
+  1.0 ms/s;  9.7;;;;Process;[PID 2229] /opt/spotify/spotify 
+148.1 us/s; 10.0;;;;Process;[PID 1] /sbin/init 
+120.2 us/s;  9.6;;;;kWork;ieee80211_iface_work
+247.4 us/s;  6.4;;;  2.5;Process;[PID 10381] xautolock -detectsleep -time 20 -locker ~/.config/i3/lock.sh ~/.config/i3/lock.png -notify 30 -notifier notify-send
+  1.7 ms/s;  6.2;;;;Process;[PID 7122] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+249.2 us/s;  6.4;;;;Process;[PID 26963] /opt/visual-studio-code/code --type=renderer --js-flags=--nolazy --no-sandbox --primordial-pipe-token=F6E011054EADD
+  3.6 ms/s;  4.9;;;;Process;[PID 2235] /opt/spotify/spotify --type=renderer --disable-pinch --no-sandbox --service-pipe-token=9575CEFB3252B72AEE20857176372
+114.5 us/s;  6.2;;;;Process;[PID 8] [rcu_preempt]
+  1.5 ms/s;  5.4;;;;Process;[PID 4017] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.8 ms/s;  4.9;;;;Interrupt;[3] net_rx(softirq)
+  1.1 ms/s;  3.9;;;;Process;[PID 17895] polybar bottom 
+  0.7 ms/s;  3.0;;;;Process;[PID 1699] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.9 ms/s;  2.9;;;;Process;[PID 6388] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.8 ms/s;  2.8;;;;Process;[PID 6172] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.8 ms/s;  2.7;;;;Process;[PID 1675] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  0.9 ms/s;  2.6;;;;Process;[PID 3790] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+  1.1 ms/s;  2.4;;;;Process;[PID 26927] /opt/visual-studio-code/code 
+ 88.5 us/s;  2.2;;;;Process;[PID 27028] /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/out/bootstrap --type=extensionHost 
+ 53.0 us/s;  2.0;;;;Process;[PID 27005] /opt/visual-studio-code/code --type=renderer --js-flags=--nolazy --no-sandbox --primordial-pipe-token=16AD393074266
+ 53.0 us/s;  2.0;;;;Process;[PID 26961] /opt/visual-studio-code/code 
+ 51.0 us/s;  1.9;;;;Process;[PID 17896] polybar bottom 
+503.9 us/s;  1.5;;;;Process;[PID 28227] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+ 81.6 us/s;  1.4;;;  0.6;Process;[PID 10377] redshift 
+390.1 us/s;  1.4;;;  0.1;Process;[PID 17902] polybar bottom 
+506.6 us/s;  1.3;;;;Interrupt;[7] sched(softirq)
+154.1 us/s;  1.4;;;;Interrupt;[9] acpi
+118.4 us/s;  1.4;;;;Process;[PID 27294] /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/extensions/html/node_modules/vscode-languageclie
+113.0 us/s;  1.3;;;;Process;[PID 27295] /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/extensions/css/node_modules/vscode-languageclien
+502.3 us/s;  1.1;;;;Process;[PID 2225] /opt/spotify/spotify 
+ 86.0 us/s;  1.0;;;;Process;[PID 17901] polybar bottom 
+156.9 us/s;  1.0;;;;Process;[PID 27619] node /bin/yarn start 
+126.4 us/s;  1.0;;;;Process;[PID 27748] /usr/lib/chromium/chromium --type=gpu-process --field-trial-handle=133886315343569877,10998782490374356524,131072 -
+  5.4 us/s;  1.0;;;;Timer;sched_rt_period_timer
+ 11.3 us/s;  0.9;;;;kWork;vmstat_shepherd
+350.7 us/s;  0.8;;;;Process;[PID 28216] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+319.9 us/s;  0.8;;;;Process;[PID 28200] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+ 30.4 us/s;  0.9;;;;Interrupt;[130] i915
+  1.9 ms/s;;;;;Timer;hrtimer_wakeup
+285.3 us/s;  0.6;;;;Process;[PID 28280] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+ 65.4 us/s;  0.6;;;;Interrupt;[0] HI_SOFTIRQ
+313.3 us/s;  0.5;;;;Process;[PID 28236] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+ 37.3 us/s;  0.6;;;;Process;[PID 26958] /opt/visual-studio-code/code --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workaround
+  4.5 us/s;  0.6;;;;kWork;blk_mq_requeue_work
+ 33.3 us/s;  0.5;;;;Process;[PID 27815] /usr/lib/chromium/chromium --type=gpu-process --field-trial-handle=133886315343569877,10998782490374356524,131072 -
+ 99.6 us/s;  0.4;;;;Process;[PID 28205] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+ 81.9 us/s;  0.4;;;;Process;[PID 1017] /usr/lib/polkit-1/polkitd --no-debug 
+ 26.0 us/s;  0.4;;;;Process;[PID 2232] /opt/spotify/spotify --type=gpu-process --no-sandbox --lang=en-US --log-file=/opt/spotify/debug.log --log-severity=d
+ 16.3 us/s;  0.4;;;;Process;[PID 588] wpa_actiond -p /run/wpa_supplicant -i wlp2s0 -P /run/netctl/wpa_actiond-wlp2s0.pid -a /usr/lib/netctl/auto.action 
+  1.1 us/s;  0.4;;;;kWork;intel_atomic_helper_free_state_
+244.0 us/s; 0.25;;;  0.2;Process;[PID 5783] emacs 
+ 50.5 us/s;  0.3;;;;Process;[PID 174] [jbd2/nvme0n1p4-]
+  2.4 us/s;  0.3;;;;Timer;intel_uncore_fw_release_timer
+ 52.6 us/s; 0.30;;;;Process;[PID 1282] /usr/bin/cupsd -l 
+ 38.3 us/s; 0.30;;;;Process;[PID 26954] /opt/visual-studio-code/code --type=gpu-process --no-sandbox --supports-dual-gpus=false --gpu-driver-bug-workaround
+ 30.5 us/s; 0.30;;;;Process;[PID 27030] /opt/visual-studio-code/code /opt/visual-studio-code/resources/app/out/bootstrap --type=watcherService 
+ 28.9 us/s; 0.30;;;;Process;[PID 586] wpa_supplicant -q -B -P /run/wpa_supplicant-wlp2s0.pid -i wlp2s0 -D nl80211,wext -c/run/netctl/wpa_supplicant-wlp2s0.
+ 18.6 us/s; 0.30;;;;Process;[PID 26] [rcuc/2]
+  7.5 us/s; 0.30;;;;kWork;i915_gem_retire_work_handler
+  4.8 us/s; 0.30;;;;kWork;process_srcu
+  2.7 us/s; 0.30;;;;Process;[PID 14] [watchdog/0]
+219.9 us/s; 0.20;;;;Process;[PID 9502] powertop --csv 
+ 76.0 us/s; 0.25;;;;Process;[PID 8558] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --ser
+ 43.8 us/s; 0.25;;;;Process;[PID 3301] /usr/bin/cups-browsed 
+166.5 us/s; 0.20;;;;Process;[PID 8338] [kworker/u8:0]
+ 11.0 us/s; 0.25;;;;Process;[PID 4448] gpg-agent --homedir /home/anton/.emacs.d/elpa/gnupg --use-standard-socket --daemon 
+  6.1 us/s; 0.25;;;;Process;[PID 1013] /usr/lib/rtkit-daemon 
+  2.8 us/s; 0.25;;;;Process;[PID 9] [rcu_sched]
+  2.6 us/s; 0.25;;;;Process;[PID 31] [watchdog/3]
+  2.5 us/s; 0.25;;;;Process;[PID 17] [watchdog/1]
+  2.4 us/s; 0.25;;;;Process;[PID 24] [watchdog/2]
+  1.7 us/s; 0.25;;;;Timer;it_real_fn
+ 75.5 us/s; 0.20;;;;Process;[PID 1006] /usr/lib/geoclue2/geoclue -t 5 
+ 54.9 us/s; 0.20;;;;Process;[PID 9145] WorkerPool/9145
+ 43.9 us/s; 0.20;;;;Process;[PID 28250] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+546.8 us/s;;;;;Interrupt;[124] xhci_hcd
+ 33.2 us/s; 0.20;;;;Process;[PID 17900] polybar bottom 
+ 28.9 us/s; 0.20;;;;Process;[PID 17899] polybar bottom 
+ 26.8 us/s; 0.20;;;;Process;[PID 986] redshift 
+ 22.4 us/s; 0.20;;;;Process;[PID 2218] /opt/spotify/spotify --type=gpu-process --no-sandbox --lang=en-US --log-file=/opt/spotify/debug.log --log-severity=d
+ 10.3 us/s; 0.20;;;;Process;[PID 26990] /opt/visual-studio-code/code --type=renderer --js-flags=--nolazy --no-sandbox --primordial-pipe-token=F6E011054EADD
+228.6 us/s;;;;  0.3;Process;[PID 388] /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 
+ 39.8 us/s; 0.15;;;;Process;[PID 17898] polybar bottom 
+411.3 us/s;;;;;Interrupt;[132] ath10k_pci
+ 23.9 us/s; 0.15;;;;Process;[PID 11] [rcuc/0]
+ 20.6 us/s; 0.15;;;;Process;[PID 27907] /usr/lib/chromium/chromium --type=renderer --field-trial-handle=133886315343569877,10998782490374356524,131072 --se
+  7.5 us/s; 0.15;;;;Process;[PID 2217] /opt/spotify/spotify 
+  2.1 us/s; 0.15;;;;kWork;free_work
+  0.8 us/s; 0.15;;;;kWork;blk_mq_timeout_work
+  0.0 us/s; 0.15;;;;kWork;fsnotify_mark_destroy_workfn
+  0.0 us/s; 0.15;;;;kWork;i915_gem_idle_work_handler
+  0.0 us/s; 0.15;;;;kWork;fsnotify_connector_destroy_work
+;;;;;;
+
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name
+  4.3%;DRAM
+  4.3%;CPU misc
+100.0%;Audio codec hwC0D0: Realtek
+  4.3%;CPU core
+100.0%;Display backlight
+100.0%;USB device: xHCI Host Controller
+100.0%;USB device: Razer DeathAdder Chroma (Razer)
+  0.0%;Radio device: btusb
+  0.0%;USB device: usb-device-0cf3-e301
+  0.0%;USB device: xHCI Host Controller
+  0.0%;USB device: Integrated_Webcam_HD (CN045G28LOG0081SB52GA01)
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+100.0%;Radio device: ath10k_pci
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PCI Express Root Port #15
+100.0%;PCI Device: Intel Corporation CM238 HD Audio Controller
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PCI Express Root Port #2
+100.0%;PCI Device: Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PCI Express Root Port #13
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PCI Express Root Port #9
+100.0%;PCI Device: Intel Corporation Sunrise Point-H Thermal subsystem
+100.0%;PCI Device: Intel Corporation Device 591b
+100.0%;PCI Device: Samsung Electronics Co Ltd NVMe SSD Controller SM961/PM961
+100.0%;PCI Device: Intel Corporation Sunrise Point-H Serial IO I2C Controller #0
+100.0%;PCI Device: Intel Corporation Sunrise Point-H SATA Controller [AHCI mode]
+100.0%;PCI Device: Intel Corporation Sunrise Point-H LPC Controller
+100.0%;I2C Device (i2c-DLL07BE:01): DLL07BE:01
+100.0%;PCI Device: Intel Corporation Sunrise Point-H CSME HECI #1
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+100.0%;PCI Device: Intel Corporation Sunrise Point-H SMBus
+100.0%;PCI Device: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16)
+100.0%;PCI Device: Intel Corporation Sunrise Point-H Serial IO I2C Controller #1
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PCI Express Root Port #1
+100.0%;PCI Device: Realtek Semiconductor Co., Ltd. RTS525A PCI Express Card Reader
+100.0%;PCI Device: Intel Corporation Sunrise Point-H PMC
+  2.3 pkts/s;Network interface: wlp2s0 (ath10k_pci)
+  0.0%;runtime-regulatory.0
+  0.0%;runtime-INT33A1:00
+  0.0%;runtime-PNP0C04:00
+  0.0%;runtime-PNP0C0E:00
+  0.0%;runtime-idma64.1
+  0.0%;runtime-rtsx_pci_ms.0
+  0.0%;runtime-PNP0103:00
+  0.0%;runtime-reg-dummy
+  0.0%;runtime-INT3400:00
+  0.0%;runtime-INT3403:00
+  0.0%;runtime-dell-smbios.1
+  0.0%;PCI Device: NVIDIA Corporation GP107M [GeForce GTX 1050 Mobile]
+  0.0%;Audio codec hwC0D2: Intel
+  0.0%;runtime-PNP0C0D:00
+  0.0%;runtime-INT3403:05
+  0.0%;runtime-dell-laptop
+  0.0%;runtime-iTCO_wdt
+  0.0%;runtime-INT3403:03
+  0.0%;runtime-PNP0C14:02
+  0.0%;runtime-INT0800:00
+  0.0%;runtime-MSFT0101:00
+  0.0%;runtime-microcode
+  0.0%;runtime-alarmtimer
+  0.0%;runtime-coretemp.0
+  0.0%;runtime-rtsx_pci_sdmmc.0
+  0.0%;runtime-INT3403:01
+  0.0%;runtime-PNP0C14:00
+  0.0%;runtime-PNP0C0A:00
+  0.0%;runtime-i2c_designware.1
+  0.0%;runtime-PNP0C0C:00
+  0.0%;runtime-PNP0C09:00
+  0.0%;runtime-PNP0C14:03
+  0.0%;runtime-INT3403:04
+  0.0%;runtime-pcspkr
+  0.0%;runtime-efi-framebuffer.0
+  0.0%;runtime-INT3403:06
+  0.0%;runtime-ACPI0003:00
+  0.0%;runtime-INT33D5:00
+  0.0%;runtime-idma64.0
+  0.0%;runtime-i2c_designware.0
+  0.0%;runtime-dell-smbios.0
+  0.0%;I2C Adapter (i2c-5): i915 gmbus dpd
+  0.0%;runtime-serial8250
+  0.0%;runtime-dcdbas
+  0.0%;runtime-PNP0C14:01
+  0.0%;runtime-i8042
+  0.0%;runtime-ACPI000C:00
+  0.0%;I2C Adapter (i2c-3): i915 gmbus dpc
+  0.0%;I2C Adapter (i2c-1): Synopsys DesignWare I2C adapter
+  0.0%;I2C Adapter (i2c-8): DPDDC-C
+  0.0%;I2C Adapter (i2c-6): DPDDC-A
+  0.0%;I2C Adapter (i2c-4): i915 gmbus dpb
+  0.0%;I2C Adapter (i2c-2): SMBus I801 adapter at f040
+  0.0%;I2C Adapter (i2c-0): Synopsys DesignWare I2C adapter
+  0.0%;I2C Adapter (i2c-7): DPDDC-B
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/dri/card0
+;/dev/input/event1
+;/dev/input/event10
+;/dev/input/event11
+;/dev/input/event18
+;/dev/input/event19
+;/dev/input/event2
+;/dev/input/event20
+;/dev/input/event21
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event8
+;/dev/input/event9
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+systemd-logind;/dev/dri/card0
+;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event1
+;/dev/input/event10
+;/dev/input/event11
+;/dev/input/event18
+;/dev/input/event19
+;/dev/input/event2
+;/dev/input/event2
+;/dev/input/event20
+;/dev/input/event20
+;/dev/input/event21
+;/dev/input/event21
+;/dev/input/event3
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event6
+;/dev/input/event8
+;/dev/input/event9
+wpa_supplicant;/dev/rfkill
+pulseaudio;/dev/snd/controlC0
+;/dev/snd/controlC0
+;/dev/snd/controlC0
+spotify;/dev/dri/renderD128
+Xorg;/dev/dri/card0
+;/dev/input/event1
+;/dev/input/event10
+;/dev/input/event11
+;/dev/input/event18
+;/dev/input/event19
+;/dev/input/event2
+;/dev/input/event20
+;/dev/input/event21
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event8
+;/dev/input/event9
+code;/dev/dri/renderD128
+chromium;/dev/dri/renderD128
+;/dev/dri/renderD128
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+Enable SATA link power management for host0;echo 'min_power' > '/sys/class/scsi_host/host0/link_power_management_policy';
+Enable SATA link power management for host1;echo 'min_power' > '/sys/class/scsi_host/host1/link_power_management_policy';
+Enable Audio codec power management;echo '1' > '/sys/module/snd_hda_intel/parameters/power_save';
+Runtime PM for I2C Adapter i2c-5 (i915 gmbus dpd);echo 'auto' > '/sys/bus/i2c/devices/i2c-5/device/power/control';
+Runtime PM for I2C Adapter i2c-2 (SMBus I801 adapter at f040);echo 'auto' > '/sys/bus/i2c/devices/i2c-2/device/power/control';
+Runtime PM for I2C Adapter i2c-3 (i915 gmbus dpc);echo 'auto' > '/sys/bus/i2c/devices/i2c-3/device/power/control';
+Runtime PM for I2C Adapter i2c-4 (i915 gmbus dpb);echo 'auto' > '/sys/bus/i2c/devices/i2c-4/device/power/control';
+Autosuspend for USB device Razer DeathAdder Chroma [Razer];echo 'auto' > '/sys/bus/usb/devices/1-1/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H SMBus;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.4/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H Thermal subsystem;echo 'auto' > '/sys/bus/pci/devices/0000:00:14.2/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PCI Express Root Port #9;echo 'auto' > '/sys/bus/pci/devices/0000:00:1d.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H Serial IO I2C Controller #0;echo 'auto' > '/sys/bus/pci/devices/0000:00:15.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PCI Express Root Port #13;echo 'auto' > '/sys/bus/pci/devices/0000:00:1d.4/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H Serial IO I2C Controller #1;echo 'auto' > '/sys/bus/pci/devices/0000:00:15.1/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PCI Express Root Port #2;echo 'auto' > '/sys/bus/pci/devices/0000:00:1c.1/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation CM238 HD Audio Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.3/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PCI Express Root Port #15;echo 'auto' > '/sys/bus/pci/devices/0000:00:1d.6/power/control';
+Runtime PM for PCI Device Samsung Electronics Co Ltd NVMe SSD Controller SM961/PM961;echo 'auto' > '/sys/bus/pci/devices/0000:04:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H CSME HECI #1;echo 'auto' > '/sys/bus/pci/devices/0000:00:16.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem;echo 'auto' > '/sys/bus/pci/devices/0000:00:04.0/power/control';
+Runtime PM for PCI Device Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter;echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16);echo 'auto' > '/sys/bus/pci/devices/0000:00:01.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H LPC Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PCI Express Root Port #1;echo 'auto' > '/sys/bus/pci/devices/0000:00:1c.0/power/control';
+Runtime PM for PCI Device Realtek Semiconductor Co., Ltd. RTS525A PCI Express Card Reader;echo 'auto' > '/sys/bus/pci/devices/0000:03:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H PMC;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.2/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-H USB 3.0 xHCI Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:14.0/power/control';
+Runtime PM for PCI Device Intel Corporation Device 591b;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.0/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Adapter i2c-8 has no runtime power management
+I2C Adapter i2c-6 has no runtime power management
+I2C Adapter i2c-7 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+VM writeback timeout
+Bluetooth device interface status
+NMI watchdog should be turned off
+Autosuspend for USB device xHCI Host Controller [usb1]
+Runtime PM for I2C Adapter i2c-1 (Synopsys DesignWare I2C adapter)
+Autosuspend for USB device Integrated_Webcam_HD [CN045G28LOG0081SB52GA01]
+Autosuspend for USB device xHCI Host Controller [usb2]
+Runtime PM for I2C Adapter i2c-0 (Synopsys DesignWare I2C adapter)
+I2C Device i2c-DLL07BE:01 has no runtime power management
+Autosuspend for unknown USB device 1-4 (0cf3:e301)
+Runtime PM for PCI Device NVIDIA Corporation GP107M [GeForce GTX 1050 Mobile]
+Wake-on-lan status for device wlp2s0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
