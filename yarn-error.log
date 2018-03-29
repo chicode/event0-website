@@ -1,14 +1,14 @@
 Arguments: 
-  /usr/bin/node /bin/yarn build
+  /home/anton/.nvm/versions/node/v9.9.0/bin/node /home/anton/.nvm/versions/node/v9.9.0/bin/yarn start
 
 PATH: 
-  /home/anton/.yarn/bin:/home/anton/.bin:/home/anton/.zplug/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+  /home/anton/.nvm/versions/node/v9.9.0/bin:/home/anton/.yarn/bin:/home/anton/.bin:.config/yarn/global/node_modules/.bin/:/home/anton/.zplug/bin:/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  9.8.0
+  9.9.0
 
 Platform: 
   linux x64
@@ -1856,15 +1856,15 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 127
   Command: sh
-  Arguments: -c parcel build src/index.html -d docs --public-url ./
-  Directory: /home/anton/programming/web-dev/event0-website
+  Arguments: -c parcel src/index.html
+  Directory: /home/anton/code/web/event0-website
   Output:
   
-      at ProcessTermError.MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/lib/node_modules/yarn/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at ProcessTermError.MessageError (/home/anton/.nvm/versions/node/v9.9.0/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/home/anton/.nvm/versions/node/v9.9.0/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/home/anton/.nvm/versions/node/v9.9.0/lib/node_modules/yarn/lib/cli.js:30281:17)
       at ChildProcess.emit (events.js:180:13)
       at maybeClose (internal/child_process.js:936:16)
       at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
