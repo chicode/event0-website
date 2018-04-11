@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="85.40715mm"
-   height="104.34731mm"
-   viewBox="0 0 85.407149 104.3473"
+   width="70.996689mm"
+   height="80.911186mm"
+   viewBox="0 0 70.996688 80.911176"
    version="1.1"
    id="svg1863"
-   inkscape:version="0.92.2 (unknown)"
-   sodipodi:docname="logo3.svg">
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="logo.svg">
   <defs
      id="defs1857" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-319.57824"
-     inkscape:cy="21.070187"
+     inkscape:zoom="0.84107037"
+     inkscape:cx="-261.31404"
+     inkscape:cy="253.54675"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g7567"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -57,68 +57,359 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(5.2838852,20.924869)">
+     transform="translate(-6.9213232,13.06043)">
     <g
-       transform="matrix(0.40346932,0,0,0.40346932,-629.80632,7.9204359)"
-       style="isolation:isolate"
-       id="g1258-1"
-       inkscape:export-xdpi="375.67001"
-       inkscape:export-ydpi="375.67001">
-      <text
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:52.6555748px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-12px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:2.73012567"
-         id="text1038-1-2-6-2-5"
-         x="1549.1582"
-         y="140.5038">event 0</text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path1075-0-9"
-         d="m 1548.792,155.66073 h 209.6571"
-         style="isolation:isolate;fill:none;stroke:#000000;stroke-width:5.63999987;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         y="183.16464"
-         x="1546.8243"
-         id="text1089-6-1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.56145477px;font-family:'Source Code Pro';-inkscape-font-specification:'Source Code Pro, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.87999916px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:1.11793625">the cps hackathon</text>
-    </g>
-    <g
-       transform="matrix(0.34268699,0,0,0.34268699,-444.84552,-202.50656)"
+       transform="matrix(0.42163738,0,0,0.42163738,-555.93998,-254.76494)"
        style="isolation:isolate"
        id="g1836">
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect1385"
-         d="m 1376.6791,572.34675 h 38.3864 l 7.6197,137.96776 h -53.6258 z"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
-      <rect
-         y="630.1687"
-         x="1410.3534"
-         height="80.145836"
-         width="35.481537"
-         id="rect1387"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
-      <rect
-         y="661.85675"
-         x="1383.6488"
-         height="48.457737"
-         width="39.046886"
-         id="rect1383"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         ry="0" />
       <g
-         transform="matrix(0.88665208,0,0,0.88665208,167.13216,74.573926)"
-         id="g1396"
-         style="stroke-width:11.27838135;stroke-miterlimit:4;stroke-dasharray:none">
+         id="g7567"
+         transform="translate(2.9054418,3.8093537)">
+        <rect
+           style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:6.83130646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect7571"
+           width="168.38329"
+           height="191.89757"
+           x="1332.0363"
+           y="569.44617" />
+        <g
+           inkscape:export-ydpi="375.67001"
+           inkscape:export-xdpi="375.67001"
+           id="g1258-1"
+           style="isolation:isolate"
+           transform="matrix(0.95691069,0,0,0.95691069,-166.23616,585.70806)">
+          <text
+             y="139.2995"
+             x="1582.3844"
+             id="text1038-1-2-6-2-5"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:36.35844803px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-9.8365593px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">
+            <tspan
+               id="tspan6115"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0.25;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';word-spacing:-9.8365593px;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">event 0</tspan>
+          </text>
+          <path
+             style="isolation:isolate;fill:none;stroke:#000000;stroke-width:4.0343008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1578.1315,148.76252 H 1729.312"
+             id="path1075-0-9"
+             inkscape:connector-curvature="0" />
+          <text
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.09508419px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.01627541px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text1089-6-1"
+             x="1578.8833"
+             y="168.3709">the cps hackathon</text>
+        </g>
         <path
-           style="fill:none;stroke:#000000;stroke-width:5.63919067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 1375.8199,555.76797 V 513.50729"
-           id="path1390"
-           inkscape:connector-curvature="0" />
-        <path
+           style="opacity:1;fill:#9c82ac;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           d="m 1399.1953,604.96328 h 21.3866 l 4.2452,76.86733 h -29.877 z"
+           id="rect1385"
            inkscape:connector-curvature="0"
-           id="path1392"
-           d="M 1395.8199,555.76797 V 513.50729"
-           style="fill:none;stroke:#000000;stroke-width:5.63919067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           sodipodi:nodetypes="ccccc" />
+        <rect
+           style="opacity:1;fill:#9c82ac;fill-opacity:1;stroke:#000000;stroke-width:7.72093153;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect1387"
+           width="19.768175"
+           height="44.652431"
+           x="1417.9567"
+           y="637.1781" />
+        <rect
+           ry="0"
+           style="opacity:1;fill:#9c82ac;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect1383"
+           width="21.754572"
+           height="26.997732"
+           x="1403.0785"
+           y="654.83282" />
+        <g
+           style="stroke-width:15.62958622;stroke-miterlimit:4;stroke-dasharray:none"
+           id="g1396"
+           transform="matrix(0.49398912,0,0,0.49398912,725.30862,327.63426)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1390"
+             d="M 1375.8199,555.76797 V 513.50729"
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1395.8199,555.76797 V 513.50729"
+             id="path1392"
+             inkscape:connector-curvature="0" />
+        </g>
+        <rect
+           y="569.44617"
+           x="1018.2789"
+           height="191.89757"
+           width="168.38329"
+           id="rect7596"
+           style="fill:#6a5079;fill-opacity:1;stroke:none;stroke-width:6.83130646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           transform="matrix(0.95691069,0,0,0.95691069,-479.99316,585.70806)"
+           style="isolation:isolate;fill:#ffffff;fill-opacity:1"
+           id="g7606"
+           inkscape:export-xdpi="375.67001"
+           inkscape:export-ydpi="375.67001">
+          <text
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:36.35844803px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-9.8365593px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#ffffff;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+             id="text7600"
+             x="1582.3844"
+             y="139.2995">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0.25;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';word-spacing:-9.8365593px;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none;fill:#ffffff;fill-opacity:1"
+               id="tspan7598">event 0</tspan>
+          </text>
+          <path
+             inkscape:connector-curvature="0"
+             id="path7602"
+             d="M 1578.1315,148.76252 H 1729.312"
+             style="isolation:isolate;fill:none;stroke:#f9f9f9;stroke-width:4.0343008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
+          <text
+             y="168.3709"
+             x="1578.8833"
+             id="text7604"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.09508419px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.01627541px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#ffffff;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1">the cps hackathon</text>
+        </g>
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path7608"
+           d="m 1085.4378,604.96328 h 21.3866 l 4.2452,76.86733 h -29.877 z"
+           style="opacity:1;fill:#6a5079;fill-opacity:1;stroke:#ffffff;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
+        <rect
+           y="637.1781"
+           x="1104.1993"
+           height="44.652431"
+           width="19.768175"
+           id="rect7610"
+           style="opacity:1;fill:#6a5079;fill-opacity:1;stroke:#ffffff;stroke-width:7.72093153;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
+        <rect
+           y="654.83282"
+           x="1089.3212"
+           height="26.997732"
+           width="21.754572"
+           id="rect7612"
+           style="opacity:1;fill:#6a5079;fill-opacity:1;stroke:#ffffff;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           ry="0" />
+        <g
+           transform="matrix(0.49398912,0,0,0.49398912,411.55162,327.63426)"
+           id="g7618"
+           style="stroke-width:15.62958622;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1;fill:#6a5079;fill-opacity:1">
+          <path
+             style="fill:#6a5079;stroke:#ffffff;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+             d="M 1375.8199,555.76797 V 513.50729"
+             id="path7614"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path7616"
+             d="M 1395.8199,555.76797 V 513.50729"
+             style="fill:#6a5079;stroke:#ffffff;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1" />
+        </g>
+        <rect
+           style="isolation:isolate;fill:#d5d5d5;fill-opacity:1;stroke:none;stroke-width:6.83130646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect7571-0"
+           width="168.38327"
+           height="191.89757"
+           x="1019.994"
+           y="323.47565" />
+        <g
+           inkscape:export-ydpi="375.67001"
+           inkscape:export-xdpi="375.67001"
+           id="g1258-1-4"
+           style="isolation:isolate"
+           transform="matrix(0.95691069,0,0,0.95691069,-478.27831,339.73764)">
+          <text
+             y="139.2995"
+             x="1582.3844"
+             id="text1038-1-2-6-2-5-8"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:36.35844803px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-9.8365593px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">
+            <tspan
+               id="tspan6115-4"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0.25;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';word-spacing:-9.8365593px;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">event 0</tspan>
+          </text>
+          <path
+             style="isolation:isolate;fill:none;stroke:#000000;stroke-width:4.0343008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1578.1315,148.76252 H 1729.312"
+             id="path1075-0-9-8"
+             inkscape:connector-curvature="0" />
+          <text
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.09508419px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.01627541px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text1089-6-1-1"
+             x="1578.8833"
+             y="168.3709">the cps hackathon</text>
+        </g>
+        <path
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           d="m 1087.153,358.99286 h 21.3866 l 4.2452,76.86733 h -29.877 z"
+           id="rect1385-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <rect
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.72093153;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect1387-8"
+           width="19.768175"
+           height="44.652428"
+           x="1105.9144"
+           y="391.20758" />
+        <rect
+           ry="0"
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect1383-5"
+           width="21.754572"
+           height="26.997732"
+           x="1091.0363"
+           y="408.8623" />
+        <g
+           style="isolation:isolate;stroke-width:15.62958622;stroke-miterlimit:4;stroke-dasharray:none"
+           id="g1396-2"
+           transform="matrix(0.49398912,0,0,0.49398912,413.26646,81.663837)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1390-1"
+             d="M 1375.8199,555.76797 V 513.50729"
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1395.8199,555.76797 V 513.50729"
+             id="path1392-9"
+             inkscape:connector-curvature="0" />
+        </g>
+        <rect
+           y="323.47565"
+           x="1333.7513"
+           height="191.89757"
+           width="168.38327"
+           id="rect7668"
+           style="isolation:isolate;fill:#eaeaea;fill-opacity:1;stroke:none;stroke-width:6.83130646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           transform="matrix(0.95691069,0,0,0.95691069,-164.52131,339.73764)"
+           style="isolation:isolate"
+           id="g7678"
+           inkscape:export-xdpi="375.67001"
+           inkscape:export-ydpi="375.67001">
+          <text
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:36.35844803px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-9.8365593px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text7672"
+             x="1582.3844"
+             y="139.2995">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0.25;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';word-spacing:-9.8365593px;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none"
+               id="tspan7670">event 0</tspan>
+          </text>
+          <path
+             inkscape:connector-curvature="0"
+             id="path7674"
+             d="M 1578.1315,148.76252 H 1729.312"
+             style="isolation:isolate;fill:none;stroke:#000000;stroke-width:4.0343008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <text
+             y="168.3709"
+             x="1578.8833"
+             id="text7676"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.09508419px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.01627541px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">the cps hackathon</text>
+        </g>
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path7680"
+           d="m 1400.9105,358.99286 h 21.3866 l 4.2452,76.86733 h -29.877 z"
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
+        <rect
+           y="391.20758"
+           x="1419.6718"
+           height="44.652428"
+           width="19.768175"
+           id="rect7682"
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.72093153;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill" />
+        <rect
+           y="408.8623"
+           x="1404.7936"
+           height="26.997732"
+           width="21.754572"
+           id="rect7684"
+           style="opacity:1;isolation:isolate;fill:#ff6d68;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           ry="0" />
+        <g
+           transform="matrix(0.49398912,0,0,0.49398912,727.02346,81.663837)"
+           id="g7690"
+           style="isolation:isolate;stroke-width:15.62958622;stroke-miterlimit:4;stroke-dasharray:none">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1375.8199,555.76797 V 513.50729"
+             id="path7686"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path7688"
+             d="M 1395.8199,555.76797 V 513.50729"
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <rect
+           style="isolation:isolate;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:6.83130646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect7692"
+           width="168.38327"
+           height="191.89757"
+           x="1647.5087"
+           y="323.47565" />
+        <g
+           inkscape:export-ydpi="375.67001"
+           inkscape:export-xdpi="375.67001"
+           id="g7702"
+           style="isolation:isolate"
+           transform="matrix(0.95691069,0,0,0.95691069,149.23567,339.73764)">
+          <text
+             y="139.2995"
+             x="1582.3844"
+             id="text7696"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:36.35844803px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;word-spacing:-9.8365593px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">
+            <tspan
+               id="tspan7694"
+               style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;line-height:0.25;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Semi-Bold';word-spacing:-9.8365593px;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none">event 0</tspan>
+          </text>
+          <path
+             style="isolation:isolate;fill:none;stroke:#000000;stroke-width:4.0343008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1578.1315,148.76252 H 1729.312"
+             id="path7698"
+             inkscape:connector-curvature="0" />
+          <text
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.09508419px;font-family:'Source Code Pro for Powerline';-inkscape-font-specification:'Source Code Pro for Powerline Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:-2.01627541px;writing-mode:lr-tb;text-anchor:start;isolation:isolate;fill:#000000;stroke:none;stroke-width:4.0343008;stroke-miterlimit:4;stroke-dasharray:none"
+             id="text7700"
+             x="1578.8833"
+             y="168.3709">the cps hackathon</text>
+        </g>
+        <path
+           style="opacity:1;isolation:isolate;fill:#ebebeb;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           d="m 1714.668,358.99286 h 21.3866 l 4.2452,76.86733 h -29.877 z"
+           id="path7704"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <rect
+           style="opacity:1;isolation:isolate;fill:#ebebeb;fill-opacity:1;stroke:#000000;stroke-width:7.72093153;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect7706"
+           width="19.768175"
+           height="44.652428"
+           x="1733.4291"
+           y="391.20758" />
+        <rect
+           ry="0"
+           style="opacity:1;isolation:isolate;fill:#ebebeb;fill-opacity:1;stroke:#000000;stroke-width:7.7208457;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect7708"
+           width="21.754572"
+           height="26.997732"
+           x="1718.5509"
+           y="408.8623" />
+        <g
+           style="isolation:isolate;stroke-width:15.62958622;stroke-miterlimit:4;stroke-dasharray:none"
+           id="g7714"
+           transform="matrix(0.49398912,0,0,0.49398912,1040.7805,81.663837)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path7710"
+             d="M 1375.8199,555.76797 V 513.50729"
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:7.81479311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1395.8199,555.76797 V 513.50729"
+             id="path7712"
+             inkscape:connector-curvature="0" />
+        </g>
       </g>
     </g>
   </g>
