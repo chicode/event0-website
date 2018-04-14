@@ -142,7 +142,7 @@ function animate(object) {
 		.animate(sun2duration, '>')
 		.fill(rgb(red))
 		.y(rails.offsetHeight - sun2Size)
-		.after(function() {
+		.after(() => {
 			this.y(0)
 			animate(this)
 		})
