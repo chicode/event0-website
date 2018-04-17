@@ -112,6 +112,16 @@ html, body {
 		margin: auto;
 	}
 
+	input {
+		outline: 0;
+		border: $red solid 5px;
+		font-size: 1.5rem;
+		border-radius: $border-radius;
+		font-family: $title-font;
+		background: $grey;
+		// padding: 5px;
+	}
+
 	button {
 		outline: 0;
 		border: 0;
@@ -210,6 +220,29 @@ html, body {
 	}
 	.deadline {
 		margin-top: 10px;
+	}
+	form {
+		margin-top: 40px;
+		.row {
+			justify-content: center;
+		}
+		input {
+			margin-right: 20px;
+			max-width: 40%;
+			// height: 100%;
+			@media (max-width: 600px) {
+				font-size: .8rem;
+				&::placeholder {
+					font-size: .8rem;
+				}
+			}
+		}
+		input::placeholder {
+			text-align: center;
+		}
+		button {
+			margin: 0;
+		}
 	}
 }
 
