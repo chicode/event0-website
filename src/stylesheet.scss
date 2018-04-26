@@ -525,8 +525,11 @@ html, body {
 		margin: 2% 3%;
 	}
 	.large * {
-		width: 40%;
-	}
+    width: 40%;
+  }
+  .large .small {
+    width: 30%;
+  }
 	.small * {
 		width: 20%;
 	}
