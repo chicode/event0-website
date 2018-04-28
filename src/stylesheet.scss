@@ -216,8 +216,12 @@ html, body {
 	button {
 		@media (max-width: 600px) {
 			font-size: 1rem;
-		}
-	}
+    }
+    margin: 0 10px;
+  }
+  .buttons {
+    justify-content: center;
+  }
 	.deadline {
 		margin-top: 10px;
 	}
@@ -532,7 +536,14 @@ html, body {
   }
 	.small * {
 		width: 20%;
-	}
+  }
+  p {
+    margin: 0 10%;
+    margin-top: 40px;
+    @media (max-width: 1300px) {
+      font-size: 1.5vw;
+    }
+  }
 }
 
 .about {
