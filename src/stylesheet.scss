@@ -145,7 +145,7 @@ html, body {
 	}
 
 	a.button {
-		text-decoration:  none
+    text-decoration:  none;
 	}
 }
 
@@ -330,7 +330,8 @@ html, body {
 		}
 	}
 	.awards-group {
-		margin-top: 70px;
+    margin-top: 70px;
+    text-align: center;
 		// height: 300px;
 		// img {
 		// 	height: 100%;
@@ -365,7 +366,22 @@ html, body {
 			@media (max-width: 500px) {
 				font-size: .5rem;
 			}
-		}
+    }
+    .value {
+      margin-top: 30px;
+      background: $red;
+      color: white;
+      border-radius: $border-radius;
+      display: inline-block;
+      padding: 0 3px;
+
+      @media (max-width: 1000px) {
+        font-size: 1.2rem;
+      }
+      @media (max-width: 560px) {
+        font-size: 5vw;
+      }
+    }
 	}
 }
 .schedule {
