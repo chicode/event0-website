@@ -7,7 +7,7 @@ $red: #ff6d68;
 $orange-red: linear-gradient(135deg, #ffb8a0 0%, #ffa3a0 100%);
 $border-radius: 5px;
 $blue: rgb(55, 66, 80);
-$width: 60vw;
+$width: 70vw;
 $width-2: 80vw;
 $primary-font: Source Code Pro;
 $title-font: Source Code Pro;
@@ -409,7 +409,13 @@ html, body {
 		margin-bottom: 10px;
 		@media (max-width: 500px) {
 			margin-bottom: 5px;
-		}
+    }
+
+    &.food {
+      background: $purple;
+      color: white;
+      border-radius: $border-radius;
+    }
 	}
 	& .times :last-child {
 		margin-bottom: 0;
