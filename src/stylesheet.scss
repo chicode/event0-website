@@ -570,7 +570,7 @@ html, body {
 }
 
 .about {
-	p {
+	& > p {
 		width: $width;
 		@media (max-width: 1300px) {
 			width: $width-2;
@@ -578,7 +578,7 @@ html, body {
 		margin: auto;
 		text-align: justify;
 	}
-	img {
+  .chicode-logo img {
 		margin: auto;
 		margin-top: 80px;
 		margin-bottom: 150px;
@@ -586,7 +586,50 @@ html, body {
 		@media (max-width: 600px) {
 			width: 60vw;
 		}
-	}
+  }
+
+  .team {
+    overflow-x: scroll;
+    display: flex;
+    background: $purple;
+    padding: 40px;
+    color: white;
+    margin-bottom: 60px;
+    & > * {
+      margin: 10px;
+      text-align: center;
+      flex-shrink: 0;
+      flex-basis: 350px;
+      @media (max-width: 500px) {
+        flex-basis: 200px;
+        .name {
+          font-size: 1rem !important;
+        }
+        .occupation  {
+          font-size: .8rem !important;
+        }
+      }
+    }
+    & :last-child {
+      padding-right: 50px;
+    }
+    .social {
+      display: none;
+    }
+    img {
+      width: 100%;
+    }
+    .name {
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+    .occupation {
+      font-size: 1rem;
+      color: white;
+    }
+  }
 }
 
 .page {
