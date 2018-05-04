@@ -200,16 +200,6 @@ html, body {
 
 .title {
   text-align: center;
-  .red-background {
-    color: black;
-    font-size: 1.5rem;
-    padding: 10px;
-        margin-top: 40px;
-
-		@media (max-width: 600px) {
-			font-size: 1rem;
-    }
-  }
 	position: relative;
 	img {
 		padding-top: 40px;
@@ -224,6 +214,17 @@ html, body {
 			font-size: 1rem;
     }
     margin: 0 10px;
+  }
+  .promotional {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 40px;
+		@media (max-width: 600px) {
+			font-size: 1rem;
+    }
+    button {
+      margin: auto;
+    }
   }
   .buttons {
     justify-content: center;
@@ -570,7 +571,7 @@ html, body {
 }
 
 .about {
-	& > p {
+	p {
 		width: $width;
 		@media (max-width: 1300px) {
 			width: $width-2;
@@ -578,7 +579,7 @@ html, body {
 		margin: auto;
 		text-align: justify;
 	}
-  .chicode-logo img {
+	img {
 		margin: auto;
 		margin-top: 80px;
 		margin-bottom: 150px;
@@ -586,7 +587,7 @@ html, body {
 		@media (max-width: 600px) {
 			width: 60vw;
 		}
-  }
+	}
 }
 
 .page {
