@@ -199,6 +199,17 @@ html, body {
 }
 
 .title {
+  text-align: center;
+  .red-background {
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+        margin-top: 40px;
+
+		@media (max-width: 600px) {
+			font-size: 1rem;
+    }
+  }
 	position: relative;
 	img {
 		padding-top: 40px;
@@ -243,7 +254,7 @@ html, body {
 		button {
 			margin: 0;
 		}
-	}
+  }
 }
 
 .description {
@@ -362,23 +373,25 @@ html, body {
 				font-size: .5rem;
 			}
     }
-    .value {
-      margin-top: 30px;
-      background: $red;
-      color: white;
-      border-radius: $border-radius;
-      display: inline-block;
-      padding: 0 15px;
-
-      @media (max-width: 1000px) {
-        font-size: 1.2rem;
-      }
-      @media (max-width: 560px) {
-        font-size: 5vw;
-      padding: 0 2vw;
-      }
-    }
 	}
+}
+.red-background {
+  margin-top: 30px;
+  background: $red;
+  color: white;
+  border-radius: $border-radius;
+  display: inline-block;
+  padding: 0 15px;
+
+  @media (max-width: 1000px) {
+    font-size: 1.2rem;
+  }
+  @media (max-width: 560px) {
+    font-size: 5vw;
+  padding: 0 2vw;
+  }
+  font-weight: bold;
+  text-decoration: none;
 }
 .schedule {
 	position: relative;
