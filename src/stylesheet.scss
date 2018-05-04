@@ -23,11 +23,6 @@ $title-font: Source Code Pro;
 	margin: auto;
 }
 
-p:empty {
-	display: none;
-	}
-
-
 html, body {
 	height: 100%;
 	margin: 0;
@@ -39,7 +34,11 @@ html, body {
 
 	* {
     margin: 0;
-	}
+  }
+
+  p:blank, p:empty {
+    display: none;
+  }
 
 	h2 {
 		margin-top: 180px;
