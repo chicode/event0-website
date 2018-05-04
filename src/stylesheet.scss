@@ -173,7 +173,8 @@ html, body {
 		position: absolute;
 		right: 0;
 		left: 0;
-		bottom: 0;
+    bottom: 0;
+    width: 150px;
 		@media (max-width: 600px) {
 			width: 25vw;
 		}
