@@ -23,6 +23,11 @@ $title-font: Source Code Pro;
 	margin: auto;
 }
 
+p:empty {
+	display: none;
+	}
+
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -505,7 +510,8 @@ html, body {
 			font-size: 1.2rem;
 		}
 		p {
-			border-radius: $border-radius;
+			border-bottom-left-radius: $border-radius;
+			border-bottom-right-radius: $border-radius;
 			background: $grey;
 			padding: 30px;
 			font-size: 1rem;
