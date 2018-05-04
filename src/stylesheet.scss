@@ -554,12 +554,15 @@ html, body {
 }
 
 .thanks {
+  & > * {
+    margin: 4vw 0;
+  }
 	.row {
 		align-items: center;
 		justify-content: center;
 	}
 	img {
-		margin: 3% 3%;
+		margin: 0 4%;
 	}
   p {
     margin: 0 10%;
