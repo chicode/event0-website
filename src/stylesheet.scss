@@ -36,10 +36,6 @@ html, body {
     margin: 0;
   }
 
-  p:blank, p:empty {
-    display: none;
-  }
-
 	h2 {
 		margin-top: 180px;
 		margin-bottom: 50px;
@@ -372,13 +368,14 @@ html, body {
       color: white;
       border-radius: $border-radius;
       display: inline-block;
-      padding: 0 3px;
+      padding: 0 15px;
 
       @media (max-width: 1000px) {
         font-size: 1.2rem;
       }
       @media (max-width: 560px) {
         font-size: 5vw;
+      padding: 0 2vw;
       }
     }
 	}
